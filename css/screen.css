@@ -51,7 +51,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   background: #fafafa;
-  font-family: "Open Sans";
+  font-family: "Raleway", sans-serif;
   color: #404042;
   margin-top: 80px; }
 
@@ -410,3 +410,48 @@ footer {
   footer .copyright {
     float: left;
     font-size: 13px; }
+
+/* Dashboard */
+.dashboard .whitebox {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px 0px; }
+  .dashboard .whitebox h3 {
+    display: inline;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px; }
+  .dashboard .whitebox .viewall {
+    display: inline;
+    float: right;
+    margin-top: 10px; }
+    .dashboard .whitebox .viewall a {
+      color: #1dabe6; }
+.dashboard .container-fluid {
+  padding-left: 0px; }
+.dashboard .index {
+  background: #414042;
+  padding: 0;
+  margin: 0; }
+  .dashboard .index .db {
+    font-size: 15px;
+    color: #fff; }
+    .dashboard .index .db li {
+      padding: 30px 10px;
+      border-bottom: 1px solid #4c4b4d; }
+      .dashboard .index .db li a {
+        color: #ffffff;
+        text-decoration: none; }
+  .dashboard .index .settings {
+    margin-top: 350px; }
+    .dashboard .index .settings li {
+      background: #333334;
+      padding: 15px 10px !important;
+      margin: 2px 0px;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      color: #ccc; }
+.dashboard .active {
+  background: #1dabe6;
+  color: #fff; }
