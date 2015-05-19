@@ -16,7 +16,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../css/jumbotron.css" rel="stylesheet">
+    <link href="../css/addition.css" rel="stylesheet">
     <link href="../css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
     <!-- Font -->
@@ -47,8 +47,8 @@
           <a class="navbar-brand" href="index.html"><img src="../images/safetynet.png" width="100" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li id="search"></li>
+          <ul class="nav navbar-nav navbar-right topheader">
+            <li id="search"><a href="mailto:info@kycsafetynet.com">Search</a></li>
             <li id="email"><a href="mailto:info@kycsafetynet.com">info@KYCSafetyNet.com</a></li>
             <li id="number"><a href="tel:+001234567890">+00 (123) 456 78 90</a></li>
           </ul>
@@ -57,178 +57,183 @@
     </nav>
 
     <div class="container intro">
-      <div class="col-lg-offset-1 col-lg-8">
-        <h1>Create Account</h1>
+      <div class="col-lg-offset-1 col-lg-9">
+        <h1>Select Plan</h1>
+        <h2>Please select your <strong>plan and payment</strong>.</p></h2>
         <ul class="progression">
           <li class="company">
-            <span class="circle">1</span>
-            <p class="details">Company Details</p>
+            <a href="step-one.html">
+              <span class="circle">1</span>
+              <p class="details">Company Details</p>
+            </a>
           </li>
           <li class="company">
-            <span class="circle">2</span>
-            <p class="details">Personal Details</p>
+            <a href="step-two.html">
+              <span class="circle">2</span>
+              <p class="details">Personal Details</p>
+            </a>
           </li>
           <li class="company active">
-            <span class="circle">3</span>
-            <p class="details">Plan & Payment</p>
+            <a href="step-three.html">
+              <span class="circle">3</span>
+              <p class="details">Plan & Payment</p>
+            </a>
           </li>
         </ul>
       </div>
     </div>
 
     <div class="container">                                                        
-      <div class="table-responsive">          
-      <table class="table">
-        <thead>
-          <tr>
-            <th class="none"></th>
-            <th>Basic Plan</th>
-            <th>Pro Plan</th>
-            <th>Premium Plan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Monthly payment billed annually. You can cancel, upgrade or add items to the plans.</td>
-            <td class="price"><span class="tag">$</span>26<span class="month">/month</span></td>
-            <td class="price"><span class="tag">$</span>29<span class="month">/month</span></td>
-            <td class="price"><span class="tag">$</span>99<span class="month">/month</span></td>
-          </tr>
-          <tr>
-            <td><strong>Search</strong><br />
-              AML & PEP<br />
-              Credit<br />
-              XXXXXX
-            </td>
-            <td><br />
-              Unlimited<br />
-              10<br />
-              10
-            </td>
-            <td><br />
-              Unlimited<br />
-              50<br />
-              50
-            </td>
-            <td><br />
-              Unlimited<br />
-              Unlimited<br />
-              Unlimited
-            </td>
-          </tr>
-          <tr>
-            <td>Users</td>
-            <td>1</td>
-            <td>1</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>Download</td>
-            <td>10</td>
-            <td>50</td>
-            <td>Unlimited</td>
-          </tr>
-          <tr>
-            <td>Reports</td>
-            <td>10</td>
-            <td>50</td>
-            <td>Unlimited</td>
-          </tr>
-          <tr>
-            <td class="none"></td>
-            <td><button class="blue">Select</button></td>
-            <td><button class="blue">Select</button></td>
-            <td><button class="blue">Select</button></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-responsive col-lg-offset-1 col-lg-9">          
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="none"></th>
+              <th>Basic Plan</th>
+              <th>Pro Plan</th>
+              <th>Premium Plan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monthly payment billed annually. You can cancel, upgrade or add items to the plans.</td>
+              <td class="price"><span class="tag">$</span>26<span class="month">/month</span></td>
+              <td class="price"><span class="tag">$</span>29<span class="month">/month</span></td>
+              <td class="price"><span class="tag">$</span>99<span class="month">/month</span></td>
+            </tr>
+            <tr>
+              <td><strong>Search</strong>
+                <div class="indent">
+                  AML & PEP<br />
+                  Credit<br />
+                  XXXXXX
+                </div>
+              </td>
+              <td><br />
+                Unlimited<br />
+                10<br />
+                10
+              </td>
+              <td><br />
+                Unlimited<br />
+                50<br />
+                50
+              </td>
+              <td><br />
+                Unlimited<br />
+                Unlimited<br />
+                Unlimited
+              </td>
+            </tr>
+            <tr>
+              <td>Users</td>
+              <td>1</td>
+              <td>1</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Download</td>
+              <td>10</td>
+              <td>50</td>
+              <td>Unlimited</td>
+            </tr>
+            <tr>
+              <td >Reports</td>
+              <td>10</td>
+              <td>50</td>
+              <td>Unlimited</td>
+            </tr>
+            <tr>
+              <td class="none"></td>
+              <td><button class="blue">Select</button></td>
+              <td><button class="blue best">Select</button></td>
+              <td><button class="blue">Select</button></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
         
-          <form class="container form-horizontal">
-            <div class="row addon">
-              <div class="col-lg-8">
-                <h4 class="col-lg-12">Add Ons</h4>
-                <div class="row">
-                  <div class="form-group">
-                    <label class="col-lg-3 control-label">Add Users</label>
-                    <div class="col-lg-5">
-                      <input type="text" class="form-control" placeholder="Text input">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group">
-                    <label class="col-lg-3 control-label">Add Criminal Search</label>
-                    <div class="col-lg-5">
-                      <input type="text" class="form-control" placeholder="Text input">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group">
-                    <label class="col-lg-3 control-label">Add Credit Search</label>
-                    <div class="col-lg-5">
-                      <input type="text" class="form-control" placeholder="Text input">
-                    </div>
-                  </div>
-                </div>
+    <form class="container form-horizontal">
+      <div class="row addon">
+        <div class="col-lg-8">
+          <h4 class="col-lg-12">Add Ons</h4>
+          <div class="row">
+            <div class="form-group line">
+              <label class="col-lg-3 control-label">Add Users</label>
+              <div class="col-lg-5">
+                <input type="text" class="form-control" placeholder="Text input">
               </div>
             </div>
-          </form<
-            <div class="row">
-              <div class="col-lg-8">
-                <h4 class="col-lg-12">Pay with Credit Card</h4>
-                <div class="row">
-                  <div class="form-group col-lg-5">
-                    <label class="inline" for="sel1">Card Number</label>
-                    <input type="text" class="form-control" placeholder="Text input">
-                  </div>
-                  <div class="form-group col-lg-3">
-                    <label class="inline" for="sel1">Expiration (mm|yy)</label>
-                    <input type="text" class="form-control" placeholder="Text input">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group col-lg-5">
-                    <label class="inline" for="sel1">Full Name on Credit Card</label>
-                    <input type="text" class="form-control" placeholder="Text input">
-                    <small>6 characters minimum, no space, case sensitive</small>
-                  </div>
-                  <div class="form-group col-lg-3">
-                    <label class="inline" for="sel1">CV Code</label>
-                    <input type="text" class="form-control" placeholder="Text input">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group col-lg-12">
-                  <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox1" value="option1"> Automatically renew my subscription. We will notify you by email before processing your card information.</input>
-                  </label>
-                </div>
-                <div class="row process">
-                  <div class="col-lg-4">
-                    <p>This is a secure 128-bit SSL encrypted payment. You are safe.</p>
-                  </div>
-                  <div class="col-lg-8">
-                    <button class="grey">Process Payment</button>
-                  </div>                  
-                </div>
+          </div>
+          <div class="row">
+            <div class="form-group line">
+              <label class="col-lg-3 control-label">Add Criminal Search</label>
+              <div class="col-lg-5">
+                <input type="text" class="form-control" placeholder="Text input">
               </div>
             </div>
-              <div class="col-lg-4 methods">
-                <h4>Other Payment Methods</h4>
-                <button class="grey">Pay with your Wowlet</button>
-                <button class="grey">Pay with Wire Transfer</button>
-                <button class="grey">Check out with PayPal</button>
+          </div>
+          <div class="row">
+            <div class="form-group line">
+              <label class="col-lg-3 control-label">Add Credit Search</label>
+              <div class="col-lg-5">
+                <input type="text" class="form-control" placeholder="Text input">
               </div>
             </div>
-          </form>
+          </div>
         </div>
       </div>
+    </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h4 class="col-lg-12">Pay with Credit Card <img src="../images/credit-card-icons.png" class="cards"/></h4>
+          <div class="row">
+            <div class="form-group col-lg-5">
+              <label class="inline" for="sel1">Card Number</label>
+              <input type="text" class="form-control" placeholder="Text input">
+            </div>
+            <div class="form-group col-lg-3">
+              <label class="inline" for="sel1">Expiration (mm|yy)</label>
+              <input type="text" class="form-control" placeholder="Text input">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-5">
+              <label class="inline" for="sel1">Full Name on Credit Card</label>
+              <input type="text" class="form-control" placeholder="Text input">
+              <small>6 characters minimum, no space, case sensitive</small>
+            </div>
+            <div class="form-group col-lg-3">
+              <label class="inline" for="sel1">CV Code</label>
+              <input type="text" class="form-control" placeholder="Text input">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-12">
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox1" value="option1"> Automatically renew my subscription. We will notify you by email before processing your card information.</input>
+              </label>
+            </div>
+          </div>
+          <div class="row process continuation">
+            <div class="col-lg-12">
+              <button class="grey">Process Payment</button>
+            </div>
+            <div class="col-lg-12">
+              <p><small>This is a secure 128-bit SSL encrypted payment. You are safe.</small></p>
+            </div>                  
+          </div>
+        </div>
+        <div class="col-lg-4 methods">
+          <h4>Other Payment Methods</h4>
+          <button class="grey">Pay with your Wowlet</button>
+          <button class="grey">Pay with Wire Transfer</button>
+          <button class="grey">Check out with PayPal</button>
+        </div>
+      </div>  
     </div>
-
-  </div>  
   </div>
 
   <footer>

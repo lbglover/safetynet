@@ -16,13 +16,13 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../css/jumbotron.css" rel="stylesheet">
+    <link href="../css/addition.css" rel="stylesheet">
     <link href="../css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
     <!-- Font -->
     <link href='http://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:300italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!-- Just for debugging purposes. Don't actually copy these 2 companys! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../js/ie-emulation-modes-warning.js"></script>
 
@@ -47,8 +47,8 @@
           <a class="navbar-brand" href="index.html"><img src="../images/safetynet.png" width="100" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li id="search"></li>
+          <ul class="nav navbar-nav navbar-right topheader">
+            <li id="search"><a href="mailto:info@kycsafetynet.com">Search</a></li>
             <li id="email"><a href="mailto:info@kycsafetynet.com">info@KYCSafetyNet.com</a></li>
             <li id="number"><a href="tel:+001234567890">+00 (123) 456 78 90</a></li>
           </ul>
@@ -59,18 +59,25 @@
     <div class="container intro">
       <div class="col-lg-offset-1 col-lg-8">
         <h1>Create Account</h1>
+        <h2>Please provide your <strong>company details</strong>.</p></h2>
         <ul class="progression">
           <li class="company active">
-            <span class="circle">1</span>
-            <p class="details">Company Details</p>
+            <a href="step-one.html">
+              <span class="circle">1</span>
+              <p class="details">Company Details</p>
+            </a>
           </li>
           <li class="company">
-            <span class="circle">2</span>
-            <p class="details">Personal Details</p>
+            <a href="step-two.html">
+              <span class="circle">2</span>
+              <p class="details">Personal Details</p>
+            </a>
           </li>
-          <li class="company active">
-            <span class="circle">3</span>
-            <p class="details">Plan & Payment</p>
+          <li class="company">
+            <a href="step-three.html">
+              <span class="circle">3</span>
+              <p class="details">Plan & Payment</p>
+            </a>
           </li>
         </ul>
       </div>
@@ -178,8 +185,8 @@
               </div>
               <div class="row">
                 <div class="form-group col-lg-12">
-                  <label class="checkbox-inline">
-                    <input type="checkbox" id="inlineCheckbox1" value="option1"> My commercial address is different from Head Office
+                  <label class="checkbox-incompany">
+                    <input type="checkbox" id="incompanyCheckbox1" value="option1"> My commercial address is different from Head Office
                   </label>
                 </div>
               </div>

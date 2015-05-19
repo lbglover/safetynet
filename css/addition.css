@@ -1,0 +1,28 @@
+.company {
+  line-height: 0.5;
+  text-align: center;
+}
+.company span {
+  position: relative;  
+}
+.company span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid #ccc;
+  top: 30;
+  width: 150px;
+
+}
+.company span:before {
+  right: 100%;
+  margin-right: 150px;
+}
+.company span:after {
+  left: 100%;
+  margin-left: 10px;
+}
+
+.company:last-child span:after {
+  border: 0px;
+}
