@@ -17,6 +17,7 @@ body
 	font-family: 'Raleway', sans-serif
 	color: #404042
 	margin-top: 80px
+	line-height: 25px
 
 nav 
 	background: #ffffff
@@ -26,6 +27,9 @@ nav
 a
 	color: #404042
 	text-decoration: underline
+
+p
+	line-height: 25px
 
 section
 	padding: 80px 0px 100px 0px
@@ -54,6 +58,12 @@ button
 	padding: 12px 50px
 	letter-spacing: .5px
 	font-weight: 400
+
+.left
+	float: left
+
+.right
+	float: right
 
 .blue
 	background: #2fade4
@@ -458,6 +468,9 @@ footer
 
 /* Dashboard */
 .dashboard
+	.middle
+		margin-top: 80px
+
 	.whitebox
 		background: #ffffff
 		padding: 20px
@@ -482,7 +495,7 @@ footer
 
 	.index
 		background: #414042
-		padding: 0
+		padding: 40px 0px 0px 0px
 		margin: 0
 		
 		.db
@@ -509,8 +522,80 @@ footer
 				letter-spacing: .5px
 				color: #ccc
 
+				a
+					color: #ccc
+					text-decoration: none
+
+
+/* Nav Tabs */
+.nav-tabs
+	color: #000
+	border-bottom: 0px
+
+	li
+		a
+			text-decoration: underline
+			border-radius: 0px
+			border: 0px
+			line-height: 25px
+			color: #2fade4
+
 	.active
-		background: #1dabe6
-		color: #fff
+		position: relative
+		background: #d8eef9
+
+	.active:after 
+		top: 100%
+		left: 50%
+		border: solid transparent
+		content: " "
+		height: 0
+		width: 0
+		position: absolute
+		pointer-events: none
+		border-color: rgba(216, 238, 249, 0)
+		border-top-color: #d8eef9
+		border-width: 15px
+		margin-left: -15px
+
+	li.active>a, li.active>a:focus, li.active>a:hover
+		background: #d8eef9
+		border: 0px
+		border-radius: 0px
+		text-decoration: none
+		padding: 5px 40px
 
 
+.panel-default
+	border-color: red !important
+	border: 0px
+
+	.panel-heading
+		border-bottom: 1px solid #2fade4 !important
+		background: #fafafa
+		border: 0
+		padding: 10px 0px
+
+		h4
+			a
+				text-decoration: none
+
+#accordion
+	margin-top: 20px
+
+
+/* Icons */
+#settings
+	background: url("../images/contact.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 20px
+
+#contact
+	background: url("../images/settings.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 20px
+
+#help
+	background: url("../images/help.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 20px
