@@ -66,7 +66,8 @@ a {
   text-decoration: underline; }
 
 p {
-  line-height: 25px; }
+  line-height: 25px;
+  font-size: 16px; }
 
 section {
   padding: 80px 0px 100px 0px; }
@@ -95,6 +96,12 @@ button {
   padding: 12px 50px;
   letter-spacing: 0.5px;
   font-weight: 400; }
+  button a {
+    color: #fff;
+    text-decoration: none; }
+  button a:hover {
+    text-decoration: none;
+    color: inherit; }
 
 .left {
   float: left; }
@@ -102,15 +109,18 @@ button {
 .right {
   float: right; }
 
+.lighterblue {
+  background: #d8eef9; }
+
+.lightblue {
+  background: #76c9ec;
+  color: #000; }
+
 .blue {
   background: #2fade4; }
 
 .grey {
   background: #404042; }
-
-.lightblue {
-  background: #76c9ec;
-  color: #000; }
 
 small {
   font-size: 11px;
@@ -144,93 +154,100 @@ label {
   background-position: 0% 50%;
   padding-left: 5px; }
 
-.registeration .intro {
-  padding-left: 0px; }
-.registeration .copy {
-  font-size: 13px;
-  line-height: 20px;
-  border-top: 1px solid #2b2b2b;
-  padding-top: 40px;
-  margin-top: 40px; }
-  .registeration .copy p {
-    margin-bottom: 10px; }
-  .registeration .copy .terms {
-    margin-bottom: 30px; }
-  .registeration .copy #login {
-    padding-top: 15px; }
-    .registeration .copy #login a {
-      color: #25a4d7; }
-.registeration h1 {
-  margin-top: 150px;
-  margin-bottom: 20px;
-  font-size: 28px; }
-.registeration h4 {
-  font-size: 18px;
-  font-weight: 400;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding-left: 0px; }
-.registeration form {
-  padding-top: 50px;
-  padding-bottom: 80px; }
-  .registeration form .verification {
-    margin-top: 26px;
-    margin-left: -20px;
-    height: 48px; }
-.registeration .continuation {
-  margin-top: 60px; }
-.registeration .form-control {
-  border: 1px solid #eee;
-  -webkit-box-shadow: none; }
-.registeration .form-group {
-  margin: 10px 0px; }
-.registeration label {
-  margin-bottom: 10px;
-  font-size: 13px; }
-.registeration input {
-  height: 50px;
-  border: 1px solid #eee;
-  box-shadow: 0px;
-  color: #eee;
-  font-size: 13px; }
-.registeration select {
-  height: 50px;
-  border: 1px solid #eee;
-  box-shadow: 0px; }
-.registeration #inlineCheckbox1 {
-  height: 30px;
-  width: 30px;
-  padding-right: 20px;
-  margin-top: -9px; }
-.registeration .optional {
-  float: right;
-  color: #25a4d7; }
-.registeration .progression {
-  margin-top: 80px;
-  color: grey; }
-  .registeration .progression li {
-    float: left;
-    margin-right: 110px;
-    text-align: center; }
-    .registeration .progression li a {
-      text-decoration: none;
-      color: inherit; }
-  .registeration .progression span.circle {
-    padding: 8px 15px;
-    border: 2px solid #eee;
-    border-radius: 50%; }
-  .registeration .progression .active {
+.registeration {
+  /* h4
+   * font-size: 18px
+   * font-weight: 400
+   * margin-top: 40px
+   * margin-bottom: 20px
+   * padding-left: 0px */ }
+  .registeration .intro {
+    padding-left: 0px; }
+  .registeration .copy {
+    font-size: 13px;
+    line-height: 20px;
+    border-top: 1px solid #2b2b2b;
+    padding-top: 40px;
+    margin-top: 40px; }
+    .registeration .copy p {
+      margin-bottom: 10px; }
+    .registeration .copy .terms {
+      margin-bottom: 30px; }
+    .registeration .copy #login {
+      padding-top: 15px; }
+      .registeration .copy #login a {
+        color: #25a4d7; }
+  .registeration h1 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 28px; }
+  .registeration form {
+    padding-bottom: 80px; }
+    .registeration form .verification {
+      margin-top: 26px;
+      margin-left: -20px;
+      height: 48px; }
+  .registeration .continuation {
+    margin-top: 60px; }
+  .registeration .form-control {
+    border: 1px solid #eee;
+    -webkit-box-shadow: none; }
+  .registeration .form-group {
+    margin: 10px 0px; }
+  .registeration label {
+    margin-bottom: 10px;
+    font-size: 13px; }
+  .registeration input {
+    height: 50px;
+    border: 1px solid #eee;
+    box-shadow: 0px;
+    color: #eee;
+    font-size: 13px; }
+  .registeration select {
+    height: 50px;
+    border: 1px solid #eee;
+    box-shadow: 0px; }
+  .registeration #inlineCheckbox1 {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    margin-top: -9px; }
+  .registeration .optional {
+    float: right;
     color: #25a4d7; }
-    .registeration .progression .active span {
-      border: 4px solid #25a4d7; }
-  .registeration .progression p.details {
-    margin-top: 20px;
-    font-size: 14px; }
-.registeration .addon label {
-  margin-top: 14px; }
-.registeration .cards {
-  height: 20px;
-  margin-left: 180px; }
+  .registeration .progression {
+    padding: 80px 0px 100px 0px;
+    color: grey; }
+    .registeration .progression li {
+      float: left;
+      margin-right: 110px;
+      text-align: center; }
+      .registeration .progression li a {
+        text-decoration: none;
+        color: inherit; }
+    .registeration .progression span.circle {
+      padding: 10px 15px;
+      border: 2px solid #eee;
+      border-radius: 50%; }
+    .registeration .progression .active {
+      color: #25a4d7; }
+      .registeration .progression .active span {
+        border: 4px solid #25a4d7; }
+    .registeration .progression p.details {
+      margin-top: 30px;
+      font-size: 14px; }
+  .registeration .addon {
+    margin-top: 80px; }
+    .registeration .addon label {
+      margin-top: 14px; }
+  .registeration .cards {
+    height: 20px;
+    margin-left: 180px; }
+  .registeration .purchased {
+    background: #fff;
+    border: 1px solid grey;
+    padding: 20px;
+    margin-top: 100px; }
 
 /* Plan */
 .plan {
@@ -253,7 +270,11 @@ label {
   padding: 16px 0px; }
 
 table {
-  margin-top: 100px; }
+  margin-top: 100px;
+  /* th
+   * padding: 40px 0px !important
+   * font-size: 20px
+   * font-weight: 600 */ }
   table td, table th {
     border: 1px solid #eee;
     text-align: center;
@@ -270,10 +291,6 @@ table {
     background: #f3f3f3; }
   table tr:nth-child(2) {
     background: #d8eef9; }
-  table th {
-    padding: 40px 0px !important;
-    font-size: 20px;
-    font-weight: 600; }
   table th:nth-child(3) {
     background: #404042;
     color: #fff; }
@@ -296,11 +313,6 @@ table {
 /* Confirmation */
 .confirmation button {
   margin-top: 60px; }
-
-/* General */
-p {
-  line-height: 25px;
-  font-size: 14px; }
 
 /* Homepage */
 .jumbotron {
@@ -392,6 +404,7 @@ p {
 footer {
   background: #d8eef9;
   padding: 40px 0px 40px 0px;
+  margin-top: 100px;
   font-size: 12px; }
   footer p {
     line-height: 20px; }
@@ -514,6 +527,22 @@ footer {
 
 #accordion {
   margin-top: 20px; }
+
+/* Account */
+.accountnav ul li {
+  color: grey;
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 15px 0px; }
+  .accountnav ul li a {
+    text-decoration: none; }
+
+#account {
+  margin-top: 20px; }
+
+#addusers, #twousers {
+  margin-bottom: 100px; }
 
 /* Icons */
 #settings {

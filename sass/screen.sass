@@ -6,8 +6,9 @@
 
 @import compass/reset
 
-$blue: #1dabe6
+$lighterblue: #d8eef9
 $lightblue: #76c9ec
+$blue: #1dabe6
 $grey: #404042
 $lightgrey: #f3f3f3
 $white: #ffffff
@@ -30,6 +31,7 @@ a
 
 p
 	line-height: 25px
+	font-size: 16px
 
 section
 	padding: 80px 0px 100px 0px
@@ -59,21 +61,32 @@ button
 	letter-spacing: .5px
 	font-weight: 400
 
+	a
+		color: #fff
+		text-decoration: none
+
+	a:hover
+		text-decoration: none
+		color: inherit
+
 .left
 	float: left
 
 .right
 	float: right
 
+.lighterblue
+	background: $lighterblue
+
+.lightblue
+	background: $lightblue
+	color: #000
+
 .blue
 	background: #2fade4
 
 .grey
 	background: #404042
-
-.lightblue
-	background: $lightblue
-	color: #000
 
 small
 	font-size: 11px
@@ -141,15 +154,14 @@ label
 		margin-bottom: 20px
 		font-size: 28px
 
-	h4
+	/* h4
 		font-size: 18px
 		font-weight: 400
 		margin-top: 40px
 		margin-bottom: 20px
-		padding-left: 0px
+		padding-left: 0px */
 
 	form
-		padding-top: 50px
 		padding-bottom: 80px	
 
 		.verification
@@ -195,7 +207,7 @@ label
 
 
 	.progression
-		margin-top: 80px
+		padding: 80px 0px 100px 0px
 		color: grey
 
 		li 
@@ -208,7 +220,7 @@ label
 				color: inherit
 
 		span.circle
-			padding: 8px 15px
+			padding: 10px 15px
 			border: 2px solid #eee
 			border-radius: 50%
 
@@ -219,16 +231,24 @@ label
 				border: 4px solid #25a4d7
 
 		p.details 
-			margin-top: 20px
+			margin-top: 30px
 			font-size: 14px
 
 	.addon
+		margin-top: 80px
+
 		label
 			margin-top: 14px
 
 	.cards
 		height: 20px
 		margin-left: 180px
+
+	.purchased
+		background: #fff
+		border: 1px solid grey
+		padding: 20px
+		margin-top: 100px
 
 /* Plan */
 
@@ -280,10 +300,10 @@ table
 	tr:nth-child(2)
 		background: #d8eef9
 
-	th
+	/* th
 		padding: 40px 0px !important
 		font-size: 20px
-		font-weight: 600
+		font-weight: 600 */
 
 	th:nth-child(3)
 		background: #404042
@@ -315,11 +335,6 @@ table
 .confirmation
 	button
 		margin-top: 60px
-
-/* General */
-p
-	line-height: 25px
-	font-size: 14px
 
 /* Homepage */
 .jumbotron
@@ -428,6 +443,7 @@ p
 footer
 	background: #d8eef9
 	padding: 40px 0px 40px 0px
+	margin-top: 100px
 	font-size: 12px
 
 	p
@@ -582,6 +598,26 @@ footer
 
 #accordion
 	margin-top: 20px
+
+/* Account */
+
+.accountnav
+	ul
+		li
+			color: grey
+			float: left
+			width: 30%
+			text-align: center
+			padding: 15px 0px
+
+			a
+				text-decoration: none
+
+#account
+	margin-top: 20px
+
+#addusers, #twousers
+	margin-bottom: 100px
 
 
 /* Icons */
