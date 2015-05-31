@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Registeration - Company Detail | SafetyNet KYC</title>
+    <title>Select Your Plan | SafetyNet KYC</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="../images/safetynet.png" width="100" /></a>
+          <a class="navbar-brand" href="../index.html"><img src="../images/safetynet.png" width="100" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right topheader">
@@ -84,7 +84,7 @@
     </div>
 
     <div class="container">                                                        
-      <div class="table-responsive col-lg-8">          
+      <div class="table-responsive col-lg-8 col-md-8 pricingtable">          
         <table class="table">
           <thead>
             <tr>
@@ -96,7 +96,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Monthly payment billed annually. You can cancel, upgrade or add items to the plans.</td>
+              <td><small>Monthly payment billed annually. You can cancel, upgrade or add items to the plans.</small></td>
               <td class="price"><span class="tag">$</span>26<span class="month">/month</span></td>
               <td class="price"><span class="tag">$</span>29<span class="month">/month</span></td>
               <td class="price"><span class="tag">$</span>99<span class="month">/month</span></td>
@@ -153,14 +153,14 @@
         </table>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="purchased">
           <p>You are signing up for</p>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-8">
               <div class="selectedprice">Basic Plan</div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4 text-right">
               <div class="price">$39.99</div>
             </div>
           </div>
@@ -177,20 +177,20 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 left"><h4>Add Ons</h4></div>
-            <div class="col-lg-6 price right">$21.98</div>
+            <div class="col-lg-8 left"><h4>Add Ons</h4></div>
+            <div class="col-lg-4 price text-right">$21.98</div>
           </div>
           <div class="row">
-            <div class="col-lg-6 left"><p>10 Users</p></div>
-            <div class="col-lg-6 price right">$10.99</div>
+            <div class="col-lg-8 left"><p>10 Users</p></div>
+            <div class="col-lg-4 price text-right">$10.99</div>
           </div>
           <div class="row">
-            <div class="col-lg-6 left"><p>10 Searches</p></div>
-            <div class="col-lg-6 price right">$10.99</div>
+            <div class="col-lg-8 left"><p>10 Searches</p></div>
+            <div class="col-lg-4 price text-right">$10.99</div>
           </div>
           <div class="row">
-            <div class="col-lg-6 left"><p>Total Due</p></div>
-            <div class="col-lg-6 price right">$21.98</div>
+            <div class="col-lg-8 left"><p>Total Due</p></div>
+            <div class="col-lg-4 price text-right">$21.98</div>
           </div>
           <div class="row">
             <div class="col-lg-12">
@@ -203,28 +203,32 @@
         
     <form class="container form-horizontal">
       <div class="row addon">
-        <div class="col-lg-offset-1 col-lg-8">
-          <h4 class="col-lg-12">Add Ons</h4>
+        <div class="col-lg-offset-1 col-lg-8 col-md-8">
+          <div class="row">
+            <div class="col-lg-12">
+              <h4>Add Ons</h4>
+            </div>
+          </div>
           <div class="row">
             <div class="form-group line">
-              <label class="col-lg-3 control-label">Add Users</label>
-              <div class="col-lg-5">
+              <label class="col-lg-3 col-md-3 control-label">Add Users</label>
+              <div class="col-lg-5 col-md-5">
                 <input type="text" class="form-control" placeholder="Text input">
               </div>
             </div>
           </div>
           <div class="row">
             <div class="form-group line">
-              <label class="col-lg-3 control-label">Add Criminal Search</label>
-              <div class="col-lg-5">
+              <label class="col-lg-3 col-md-3 control-label">Add Criminal Search</label>
+              <div class="col-lg-5 col-md-5">
                 <input type="text" class="form-control" placeholder="Text input">
               </div>
             </div>
           </div>
           <div class="row">
             <div class="form-group line">
-              <label class="col-lg-3 control-label">Add Credit Search</label>
-              <div class="col-lg-5">
+              <label class="col-lg-3 col-md-3 control-label">Add Credit Search</label>
+              <div class="col-lg-5 col-md-5">
                 <input type="text" class="form-control" placeholder="Text input">
               </div>
             </div>
@@ -235,25 +239,27 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-offset-1 col-lg-7">
-          <h4 class="col-lg-12">Pay with Credit Card <img src="../images/credit-card-icons.png" class="cards"/></h4>
+        <div class="col-lg-offset-1 col-lg-7 col-md-7">
           <div class="row">
-            <div class="form-group col-lg-5">
+            <h4>Pay with Credit Card <img src="../images/credit-card-icons.png" class="cards"/></h4>
+          </div>
+          <div class="row">
+            <div class="form-group col-lg-5 col-md-5">
               <label class="inline" for="sel1">Card Number</label>
               <input type="text" class="form-control" placeholder="Text input">
             </div>
-            <div class="form-group col-lg-3">
+            <div class="form-group col-lg-3 col-md-3">
               <label class="inline" for="sel1">Expiration (mm|yy)</label>
               <input type="text" class="form-control" placeholder="Text input">
             </div>
           </div>
           <div class="row">
-            <div class="form-group col-lg-5">
+            <div class="form-group col-lg-5 col-md-5">
               <label class="inline" for="sel1">Full Name on Credit Card</label>
               <input type="text" class="form-control" placeholder="Text input">
               <small>6 characters minimum, no space, case sensitive</small>
             </div>
-            <div class="form-group col-lg-3">
+            <div class="form-group col-lg-3 col-md-3">
               <label class="inline" for="sel1">CV Code</label>
               <input type="text" class="form-control" placeholder="Text input">
             </div>
@@ -274,7 +280,7 @@
             </div>                  
           </div>
         </div>
-        <div class="col-lg-4 methods">
+        <div class="col-lg-4 col-md-4 methods">
           <h4>Other Payment Methods</h4>
           <button class="grey">Pay with your Wowlet</button>
           <button class="grey">Pay with Wire Transfer</button>
@@ -292,11 +298,11 @@
         </div>
         <div class="col-lg-5">
           <ul class="secondary">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about">About</a></li>
+            <li><a href="../features">Features</a></li>
+            <li><a href="../pricing">Pricing</a></li>
+            <li><a href="../contact">Contact</a></li>
           </ul>
         </div>
     </div>

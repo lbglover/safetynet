@@ -17,12 +17,13 @@ body
 	background: #fafafa
 	font-family: 'Raleway', sans-serif
 	color: #404042
-	margin-top: 80px
+	padding-top: 94px
 	line-height: 25px
+	font-size: 12px
 
 nav 
 	background: #ffffff
-	padding-bottom: 30px
+	padding-bottom: 0px
 	border-bottom: 1px solid #eee
 
 a
@@ -31,7 +32,7 @@ a
 
 p
 	line-height: 25px
-	font-size: 16px
+	font-size: 12px
 
 section
 	padding: 80px 0px 100px 0px
@@ -41,11 +42,11 @@ h1
 	margin-bottom: 10px
 
 h2
-	font-size: 36px
+	font-size: 28px
 	margin-bottom: 20px
 
 h3
-	font-size: 28px
+	font-size: 18px
 	margin-bottom: 20px
 
 strong
@@ -57,9 +58,10 @@ button
 	color: #ffffff
 	text-transform: uppercase
 	border: 0px
-	padding: 12px 50px
+	padding: 8px 34px
 	letter-spacing: .5px
 	font-weight: 400
+	font-size: 13px
 
 	a
 		color: #fff
@@ -88,19 +90,30 @@ button
 .grey
 	background: #404042
 
+.white
+	background: #fff
+	border: 1px solid #ccc
+	color: #2b2b2b
+
+	a
+		color: #2b2b2b
+
 small
 	font-size: 11px
 	margin-left: 4px
 
 label
-	margin: 7px 0px 10px 0px
-	font-size: 14px
+	/* margin: 7px 0px 10px 0px */
+	font-size: 12px
 
 .navbar-fixed-top
 	border-bottom: 1px solid #eee
 	background: #fdfdfd
+	min-height: 100px
 
 .topheader
+	margin-top: -10px
+
 	li
 		font-size: 13px
 		margin-right: 15px
@@ -150,16 +163,9 @@ label
 				color: #25a4d7
 
 	h1
-		margin-top: 150px
+		margin-top: 50px
 		margin-bottom: 20px
 		font-size: 28px
-
-	/* h4
-		font-size: 18px
-		font-weight: 400
-		margin-top: 40px
-		margin-bottom: 20px
-		padding-left: 0px */
 
 	form
 		padding-bottom: 80px	
@@ -199,7 +205,10 @@ label
 		height: 30px
 		width: 30px
 		padding-right: 20px
-		margin-top: -9px
+		margin-top: -5px
+
+	.checkbox-inline
+		font-size: 11px
 
 	.optional
 		float: right
@@ -249,6 +258,7 @@ label
 		border: 1px solid grey
 		padding: 20px
 		margin-top: 100px
+		font-size: 12px
 
 /* Plan */
 
@@ -276,41 +286,41 @@ label
 		width: 315px
 		padding: 16px 0px
 
-table
-	margin-top: 100px
+.pricingtable
+	table 
+		margin-top: 50px
 
-	td, th
-		border: 1px solid #eee
-		text-align: center
-		line-height: 30px !important
-		font-size: 13px
-		padding: 7px 15px
+		th
+			text-align: center
 
-	td:first-child
-		width: 22%
-		text-align: left !important
-		font-size: 13px
+		td, th
+			border: 1px solid #eee
+			line-height: 30px !important
+			font-size: 13px
+			padding: 7px 15px
 
-	td
-		width: 15%
+		td:first-child
+			text-align: left !important
+			font-size: 13px
+			vertical-align: middle
 
-	tr:nth-child(odd)
-		background: #f3f3f3
+		tr:nth-child(odd)
+			background: #f3f3f3
 
-	tr:nth-child(2)
-		background: #d8eef9
+		tr:nth-child(2)
+			background: #d8eef9
 
-	/* th
-		padding: 40px 0px !important
-		font-size: 20px
-		font-weight: 600 */
+		th
+			padding: 25px 0px !important
+			font-size: 16px
+			font-weight: 500
 
-	th:nth-child(3)
-		background: #404042
-		color: #fff
+		th:nth-child(3)
+			background: #404042
+			color: #fff
 
-	th:first-child
-		background: #fafafa
+		th:first-child
+			background: #fafafa
 
 	.none
 		visibility: hidden
@@ -318,18 +328,37 @@ table
 	.price
 		font-size: 50px
 		font-weight: 800
-		padding-top: 35px !important
+		vertical-align: middle
 
 		span.tag
-			font-size: 18px
+			font-size: 15px
+			vertical-align: top
 
 		span.month
 			font-size: 14px
 			font-weight: 300
+			vertical-align: middle
 
 	.blue
-		margin: 40px 0px
+		margin: 30px 0px
 		
+#personaldetails
+	font-size: 12px
+
+	.row
+		margin-bottom: 30px
+
+		label
+			font-weight: 600
+			margin-bottom: 0px
+
+	h5
+		font-size: 14px
+		font-weight: 500
+
+.more
+	border: 0px !important
+
 /* Confirmation */
 
 .confirmation
@@ -337,6 +366,13 @@ table
 		margin-top: 60px
 
 /* Homepage */
+
+.homepage
+	nav
+		button
+			padding: 5px 26px
+			margin-top: 7px
+
 .jumbotron
 	background: url("../images/background.jpg") 100%
 	height: 670px
@@ -346,11 +382,12 @@ table
 		margin-bottom: 15px
 		margin-top: 100px
 		letter-spacing: .5px
-		line-height: 40px
+		line-height: 48px
 
 	p
-		font-size: 20px
+		font-size: 14px
 		width: 70%
+		font-weight: 400
 
 #plans 
 	background: #e9f6fc
@@ -386,6 +423,10 @@ table
 	border: 0px
 	padding: 0px !important
 
+.contact
+	form
+		width: 75%
+		
 /* Footer */
 
 .greyfooter
@@ -408,7 +449,7 @@ table
 		li
 			font-size: 14px
 			line-height: 25px
-			margin: 10px 0px
+			margin: 5px 0px
 
 			a
 				color: #1dabe6
@@ -418,6 +459,11 @@ table
 		margin-top: 20px
 		font-size: 14px
 		line-height: 25px
+
+		li
+			a
+				color: #fff
+				text-decoration: none
 
 	.social
 		margin-top: 20px
@@ -483,13 +529,32 @@ footer
 
 	.copyright
 		float: left
-		font-size: 13px
 
+		p
+			font-size: 11px
 
 /* Dashboard */
 .dashboard
+
+	h2
+		font-size: 28px
+		letter-spacing: .5px
+
+	h3
+		font-size: 18px
+		margin-bottom: 20px
+
+	.searchbox
+		margin: 10px 0px
+
+		#searchbox
+			padding-left: 0px
+
+			input
+				height: 42px
+
 	.middle
-		margin-top: 80px
+		margin-top: 30px
 
 	.whitebox
 		background: #ffffff
@@ -498,8 +563,8 @@ footer
 
 		h3
 			display: inline
-			font-weight: 600
-			font-size: 18px
+			font-weight: 500
+			font-size: 16px
 			margin-bottom: 15px
 
 		.viewall
@@ -515,7 +580,7 @@ footer
 
 	.index
 		background: #414042
-		padding: 40px 0px 0px 0px
+		padding: 20px 0px 0px 0px
 		margin: 0
 		
 		.db
@@ -525,6 +590,7 @@ footer
 			li
 				padding: 30px 10px
 				border-bottom: 1px solid #4c4b4d
+				font-size: 12px
 
 				a
 					color: $white
@@ -547,18 +613,25 @@ footer
 					text-decoration: none
 
 
-/* Nav Tabs */
+/* Nav */
 .nav-tabs
 	color: #000
 	border-bottom: 0px
+	margin: 40px 0px 30px 0px
 
 	li
+		background: transparent
+
 		a
-			text-decoration: underline
+			text-decoration: none
 			border-radius: 0px
 			border: 0px
 			line-height: 25px
 			color: #2fade4
+
+		a:hover
+			background: transparent
+			text-decoration: none
 
 	.active
 		position: relative
@@ -583,12 +656,12 @@ footer
 		border: 0px
 		border-radius: 0px
 		text-decoration: none
-		padding: 5px 40px
 
 
-.panel-default
-	border-color: red !important
-	border: 0px
+.help 
+	.panel-default
+		border-color: red !important
+		border: 0px
 
 	.panel-heading
 		border-bottom: 1px solid #2fade4 !important
@@ -638,4 +711,4 @@ footer
 #help
 	background: url("../images/help.png") no-repeat
 	background-position: 0% 50%
-	padding-left: 20px
+	padding-left: 23px
