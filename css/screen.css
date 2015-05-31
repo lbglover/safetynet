@@ -74,8 +74,9 @@ section {
   padding: 80px 0px 100px 0px; }
 
 h1 {
-  font-size: 48px;
-  margin-bottom: 10px; }
+  font-size: 33px;
+  margin-bottom: 20px;
+  letter-spacing: 1px; }
 
 h2 {
   font-size: 28px;
@@ -88,8 +89,11 @@ h3 {
 strong {
   font-weight: 600; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 button {
-  border-radius: 3px;
+  border-radius: 2px;
   letter-spacing: 1px;
   color: #ffffff;
   text-transform: uppercase;
@@ -144,8 +148,37 @@ label {
   background: #fdfdfd;
   min-height: 100px; }
 
+#navLogin {
+  margin-top: 0px;
+  padding-top: 0px; }
+  #navLogin button {
+    padding: 7px 26px; }
+
+nav .open > .dropdown-menu {
+  display: block;
+  border: 2px solid #2fade4;
+  background-color: #e9f6fc; }
+nav .dropdown-menu {
+  padding: 30px 20px !important;
+  width: 275px; }
+  nav .dropdown-menu label {
+    font-weight: 600; }
+  nav .dropdown-menu a {
+    text-decoration: underline !important; }
+nav #btnLogin {
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  margin: 10px 0px; }
+nav a.uppercase {
+  text-decoration: none; }
+nav input {
+  margin-bottom: 10px; }
+nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
+  background: transparent; }
+
 .topheader {
-  margin-top: -10px; }
+  margin-top: 0px; }
   .topheader li {
     font-size: 13px;
     margin-right: 15px; }
@@ -344,7 +377,7 @@ label {
 
 .jumbotron {
   background: url("../images/background.jpg") 100%;
-  height: 670px; }
+  height: 550px; }
   .jumbotron h1 {
     font-size: 36px;
     margin-bottom: 15px;
@@ -399,18 +432,21 @@ label {
   .greyfooter h4 {
     font-size: 16px;
     text-transform: uppercase;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    letter-spacing: 0.5px; }
   .greyfooter p {
     font-size: 13px;
     color: #dbf1fa;
     line-height: 25px; }
-  .greyfooter .list li {
-    font-size: 14px;
-    line-height: 25px;
-    margin: 5px 0px; }
-    .greyfooter .list li a {
-      color: #1dabe6;
-      text-decoration: none; }
+  .greyfooter .list {
+    margin-top: 15px; }
+    .greyfooter .list li {
+      font-size: 14px;
+      line-height: 25px;
+      margin: 5px 0px; }
+      .greyfooter .list li a {
+        color: #eee;
+        text-decoration: none; }
   .greyfooter .intouch {
     margin-top: 20px;
     font-size: 14px;
@@ -435,6 +471,8 @@ label {
     background: url("../images/phone.png") no-repeat;
     background-position: 0% 50%;
     padding-left: 25px; }
+  .greyfooter #mc_embed_signup_scroll {
+    margin-top: 30px; }
 
 .homepage footer {
   margin-top: 0px; }

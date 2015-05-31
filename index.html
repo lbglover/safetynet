@@ -58,8 +58,37 @@
             <li><a href="features">Features</a></li>
             <li><a href="pricing">Pricing</a></li>
             <li><a href="contact">Contact</a></li>
-            <li><button class="blue"><a href="registeration/step-one.html">Register</a></button></li>
-            <li><button class="white"><a href="registeration.html">Log In</a></button></li>
+            <li class="dropdown" id="menuLogin">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin"><button class="blue">Register</button></a>
+              <div class="dropdown-menu" style="padding:17px;">
+                <form class="form" id="formLogin"> 
+                  <h3>Create account</h2>
+                  <label for="sel1">Enter phone number or email</label>
+                  <input type="text" class="form-control" placeholder="Text input">
+                  <button type="button" id="btnLogin" class="btn grey">Send Verification Code</button>
+                  <p>Already have an account?<a class="uppercase" href="registeration/step-one.html">Sign In</a></p>
+                </form>
+              </div>
+            </li>
+            <!-- <li><button class="white"><a href="registeration.html">Log In</a></button></li> -->
+            <li class="dropdown" id="menuLogin">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin"><button class="white">Login</button></a>
+              <div class="dropdown-menu" style="padding:17px;">
+                <form class="form" id="formLogin"> 
+                  <h3>Account Login</h2>
+                  <label for="sel1">Email</label>
+                  <input type="text" class="form-control" placeholder="Text input">
+                  <label for="sel1">Password</label>
+                  <label class="optional right" for="sel1"><a href="#">Forgot Password?</a></label>
+                  <input type="text" class="form-control" placeholder="Text input">
+                  <label class="checkbox-incompany">
+                    <input type="checkbox" id="incompanyCheckbox1" value="option1"> Remember me
+                  </label>
+                  <button type="button" id="btnLogin" class="btn grey">Login</button>
+                  <p>Don't have an account yet? <a class="uppercase" href="registeration/step-one.html">Register</a></p>
+                </form>
+              </div>
+            </li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -247,7 +276,32 @@
             <h4>Newsletter</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
-            <!-- Mailchimp Subscripe -->
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+              <form action="//semosancus.us9.list-manage.com/subscribe/post?u=8499b08379d24d10353784505&amp;id=d192ec102e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <h4>Subscribe to our mailing list</h4>
+                  <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                  <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;">
+                    <input type="text" name="b_8499b08379d24d10353784505_d192ec102e" tabindex="-1" value="">
+                  </div>
+                  <div class="clear">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
           </div>
         </div>
       </div>
