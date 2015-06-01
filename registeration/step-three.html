@@ -89,14 +89,14 @@
           <thead>
             <tr>
               <th class="none"></th>
-              <th>Basic Plan</th>
-              <th>Pro Plan</th>
-              <th>Premium Plan</th>
+              <th><h3>Basic Plan</h3></th>
+              <th><h3>Pro Plan</h3></th>
+              <th><h3>Premium Plan</h3></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><small>Monthly payment billed annually. You can cancel, upgrade or add items to the plans.</small></td>
+              <td id="info">Monthly payment billed annually. You can cancel, upgrade or add items to the plans.</small></td>
               <td class="price"><span class="tag">$</span>26<span class="month">/month</span></td>
               <td class="price"><span class="tag">$</span>29<span class="month">/month</span></td>
               <td class="price"><span class="tag">$</span>99<span class="month">/month</span></td>
@@ -156,14 +156,15 @@
       <div class="col-lg-4 col-md-4">
         <div class="purchased">
           <p>You are signing up for</p>
-          <div class="row">
+          <div class="row planselection">
             <div class="col-lg-8">
-              <div class="selectedprice">Basic Plan</div>
+              <div class="selectedprice"><h3>Basic Plan</h3></div>
             </div>
             <div class="col-lg-4 text-right">
               <div class="price">$39.99</div>
             </div>
           </div>
+          <hr />
           <div class="row">
             <div class="col-lg-12">
               <h4>Details</h4>
@@ -176,6 +177,7 @@
               </ul>
             </div>
           </div>
+          <hr />
           <div class="row">
             <div class="col-lg-8 left"><h4>Add Ons</h4></div>
             <div class="col-lg-4 price text-right">$21.98</div>
@@ -188,11 +190,11 @@
             <div class="col-lg-8 left"><p>10 Searches</p></div>
             <div class="col-lg-4 price text-right">$10.99</div>
           </div>
-          <div class="row">
-            <div class="col-lg-8 left"><p>Total Due</p></div>
+          <div class="row total">
+            <div class="col-lg-8 left">Total Due</div>
             <div class="col-lg-4 price text-right">$21.98</div>
           </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-lg-12">
               <small>You will be charged this amount at the beginning of your cycle. Other charges apply if more services are used.</small>
             </div>
@@ -213,7 +215,7 @@
             <div class="form-group line">
               <label class="col-lg-3 col-md-3 control-label">Add Users</label>
               <div class="col-lg-5 col-md-5">
-                <input type="text" class="form-control" placeholder="Text input">
+                <input type="text" class="form-control" placeholder="Each users (+ $9.99/month)">
               </div>
             </div>
           </div>
@@ -221,7 +223,7 @@
             <div class="form-group line">
               <label class="col-lg-3 col-md-3 control-label">Add Criminal Search</label>
               <div class="col-lg-5 col-md-5">
-                <input type="text" class="form-control" placeholder="Text input">
+                <input type="text" class="form-control" placeholder="+10 Searches (+ $9.99/month)">
               </div>
             </div>
           </div>
@@ -229,7 +231,7 @@
             <div class="form-group line">
               <label class="col-lg-3 col-md-3 control-label">Add Credit Search</label>
               <div class="col-lg-5 col-md-5">
-                <input type="text" class="form-control" placeholder="Text input">
+                <input type="text" class="form-control" placeholder="+10 Searches (+ $9.99/month)">
               </div>
             </div>
           </div>
@@ -246,22 +248,22 @@
           <div class="row">
             <div class="form-group col-lg-5 col-md-5">
               <label class="inline" for="sel1">Card Number</label>
-              <input type="text" class="form-control" placeholder="Text input">
+              <input type="text" class="form-control" placeholder="">
             </div>
             <div class="form-group col-lg-3 col-md-3">
               <label class="inline" for="sel1">Expiration (mm|yy)</label>
-              <input type="text" class="form-control" placeholder="Text input">
+              <input type="text" class="form-control" placeholder="">
             </div>
           </div>
           <div class="row">
             <div class="form-group col-lg-5 col-md-5">
               <label class="inline" for="sel1">Full Name on Credit Card</label>
-              <input type="text" class="form-control" placeholder="Text input">
+              <input type="text" class="form-control" placeholder="">
               <small>6 characters minimum, no space, case sensitive</small>
             </div>
             <div class="form-group col-lg-3 col-md-3">
               <label class="inline" for="sel1">CV Code</label>
-              <input type="text" class="form-control" placeholder="Text input">
+              <input type="text" class="form-control" placeholder="">
             </div>
           </div>
           <div class="row">

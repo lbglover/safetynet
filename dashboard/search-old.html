@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Contact SafetyNet KYC</title>
+    <title>Search | SafetyNet KYC</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +62,7 @@
           <li id="dbsearch"class="live"><a href="search.html">Search</a></li>
           <li id="dbreports"><a href="reports.html">Reports</a></li>
           <li id="dbreports"><a href="history.html">History</a></li>
-          <li id="dbusers"><a href="users.html">Account</a></li>
+          <li id="dbusers"><a href="users.html">Users</a></li>
         </ul>
         <ul class="settings">
           <li><a href="settings.html" id="settings">Settings</a></li>
@@ -70,34 +70,84 @@
           <li><a href="help.html" id="help">Help</a></li>
         </ul>
       </div>
-      <div class="col-lg-offset-1 col-lg-5 col-md-6 middle">
-        <h2>Contact Us</h2>
-        <p>If something is broken, unclear or you just want to say hello, please give us your information here.</p>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Email</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputFile">Subject</label>
-            <select class="form-control">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-          <div class="checkbox">
-            <label><input type="checkbox">Message</label>
-            <textarea class="form-control" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+      <div class="col-lg-offset-1 col-lg-7 col-md-7 middle">
+        <div id="search"><a href="#">Search Again</a></div>
+        <h2><span>Results for</span> Searched Name here</h2>
+        <p>Add details for more accurate results. <a href="#">Advanced Search</a></p>
+        <div class="col-lg-2 form-inline">
+          <label>Countries</label> 
+          <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="col-lg-2 form-inline">
+          <label>Countries</label> 
+          <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="col-lg-2 form-inline">
+          <label>Countries</label> 
+          <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="col-lg-3 right">
+          <button class="grey">Generate Report</button>  
+        </div>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Last Name</th>
+              <th>First Name</th>
+              <th>Country, City, State/Province</th>
+              <th>ID Verified</th>
+              <th>Risk Score</th>
+              <th>Risk Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">McKeen</td>
+              <td>Jean Paul Callahan</td>
+              <td>TBC</td>
+              <td><img src="images/check.png" /></td>
+              <td>125</td>
+              <td><img src="images/check.png" /></td>
+            </tr>
+            <tr>
+              <td scope="row">McKeen</td>
+              <td>Jean Paul Callahan</td>
+              <td>TBC</td>
+              <td><img src="images/check.png" /></td>
+              <td>125</td>
+              <td><img src="images/check.png" /></td>
+            </tr>
+            <tr>
+              <td scope="row">McKeen</td>
+              <td>Jean Paul Callahan</td>
+              <td>TBC</td>
+              <td><img src="images/check.png" /></td>
+              <td>125</td>
+              <td><img src="images/check.png" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="right">
+          <button class="blue">Generate Report</button>  
+        </div>
       </div>
     </div>
 
@@ -116,6 +166,7 @@
               <li><a href="../contact">Contact</a></li>
             </ul>
           </div>
+        </div>
       </div>
     </footer>
 

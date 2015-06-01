@@ -55,7 +55,7 @@ body {
   color: #404042;
   padding-top: 94px;
   line-height: 25px;
-  font-size: 12px; }
+  font-size: 14px; }
 
 nav {
   background: #ffffff;
@@ -68,7 +68,7 @@ a {
 
 p {
   line-height: 25px;
-  font-size: 12px; }
+  font-size: 14px; }
 
 section {
   padding: 80px 0px 100px 0px; }
@@ -86,6 +86,11 @@ h3 {
   font-size: 18px;
   margin-bottom: 20px; }
 
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
 strong {
   font-weight: 600; }
 
@@ -101,7 +106,7 @@ button {
   padding: 8px 34px;
   letter-spacing: 0.5px;
   font-weight: 400;
-  font-size: 13px; }
+  font-size: 14px; }
   button a {
     color: #fff;
     text-decoration: none; }
@@ -136,12 +141,11 @@ button {
     color: #2b2b2b; }
 
 small {
-  font-size: 11px;
-  margin-left: 4px; }
+  font-size: 11px; }
 
 label {
   /* margin: 7px 0px 10px 0px */
-  font-size: 12px; }
+  font-size: 14px; }
 
 .navbar-fixed-top {
   border-bottom: 1px solid #eee;
@@ -151,8 +155,6 @@ label {
 #navLogin {
   margin-top: 0px;
   padding-top: 0px; }
-  #navLogin button {
-    padding: 7px 26px; }
 
 nav .open > .dropdown-menu {
   display: block;
@@ -164,12 +166,15 @@ nav .dropdown-menu {
   nav .dropdown-menu label {
     font-weight: 600; }
   nav .dropdown-menu a {
-    text-decoration: underline !important; }
+    text-decoration: underline; }
 nav #btnLogin {
   display: block;
   width: 100%;
   border-radius: 2px;
-  margin: 10px 0px; }
+  margin: 10px 0px;
+  text-decoration: none; }
+  nav #btnLogin a:hover {
+    color: #fff; }
 nav a.uppercase {
   text-decoration: none; }
 nav input {
@@ -180,7 +185,7 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
 .topheader {
   margin-top: 0px; }
   .topheader li {
-    font-size: 13px;
+    font-size: 14px;
     margin-right: 15px; }
     .topheader li a {
       text-decoration: none; }
@@ -202,7 +207,7 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
 .registeration .intro {
   padding-left: 0px; }
 .registeration .copy {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   border-top: 1px solid #2b2b2b;
   padding-top: 40px;
@@ -234,13 +239,13 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
   margin: 10px 0px; }
 .registeration label {
   margin-bottom: 10px;
-  font-size: 13px; }
+  font-size: 14px; }
 .registeration input {
   height: 50px;
   border: 1px solid #eee;
   box-shadow: 0px;
   color: #eee;
-  font-size: 13px; }
+  font-size: 14px; }
 .registeration select {
   height: 50px;
   border: 1px solid #eee;
@@ -288,7 +293,27 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
   border: 1px solid grey;
   padding: 20px;
   margin-top: 100px;
-  font-size: 12px; }
+  font-size: 14px; }
+  .registeration .purchased h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px; }
+  .registeration .purchased h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400; }
+  .registeration .purchased .planselection {
+    margin-top: 20px;
+    margin-bottom: 0px; }
+  .registeration .purchased .total {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0px;
+    margin: 25px 0px 15px 0px;
+    background: #76c9ec;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
 
 /* Plan */
 .plan {
@@ -298,7 +323,8 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
   margin-left: 20px !important; }
 
 .form-horizontal h4 {
-  padding-left: 0px; }
+  padding-left: 0px;
+  font-size: 16px; }
 .form-horizontal .control-label {
   text-align: left;
   margin-left: 16px; }
@@ -313,29 +339,40 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
 .pricingtable table {
   margin-top: 50px; }
   .pricingtable table th {
-    text-align: center; }
+    text-align: center;
+    padding: 25px 0px !important;
+    font-size: 16px;
+    font-weight: 500; }
   .pricingtable table td, .pricingtable table th {
     border: 1px solid #eee;
     line-height: 30px !important;
-    font-size: 13px;
-    padding: 7px 15px; }
+    font-size: 14px;
+    padding: 7px 15px;
+    text-align: center; }
   .pricingtable table td:first-child {
     text-align: left !important;
-    font-size: 13px;
-    vertical-align: middle; }
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+    width: 34%;
+    padding-left: 49px; }
   .pricingtable table tr:nth-child(odd) {
     background: #f3f3f3; }
   .pricingtable table tr:nth-child(2) {
     background: #d8eef9; }
-  .pricingtable table th {
-    padding: 25px 0px !important;
-    font-size: 16px;
-    font-weight: 500; }
   .pricingtable table th:nth-child(3) {
     background: #404042;
     color: #fff; }
   .pricingtable table th:first-child {
     background: #fafafa; }
+  .pricingtable table h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 10px 0px; }
+  .pricingtable table #info {
+    padding: 24px;
+    font-size: 12px; }
 .pricingtable .none {
   visibility: hidden; }
 .pricingtable .price {
@@ -357,11 +394,12 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
   #personaldetails .row {
     margin-bottom: 30px; }
     #personaldetails .row label {
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 0px; }
   #personaldetails h5 {
-    font-size: 14px;
-    font-weight: 500; }
+    font-size: 16px;
+    font-weight: 600;
+    color: #1dabe6; }
 
 .more {
   border: 0px !important; }
@@ -415,7 +453,7 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
   margin: 50px 0px 30px 0px; }
 
 .more {
-  font-size: 12px;
+  font-size: 14px;
   background: #e9f6fc !important;
   border: 0px;
   padding: 0px !important; }
@@ -435,7 +473,7 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
     margin-bottom: 20px;
     letter-spacing: 0.5px; }
   .greyfooter p {
-    font-size: 13px;
+    font-size: 14px;
     color: #dbf1fa;
     line-height: 25px; }
   .greyfooter .list {
@@ -514,7 +552,10 @@ footer {
 /* Dashboard */
 .dashboard h2 {
   font-size: 28px;
+  font-weight: 500;
   letter-spacing: 0.5px; }
+  .dashboard h2 span {
+    font-size: 16px; }
 .dashboard h3 {
   font-size: 18px;
   margin-bottom: 20px; }
@@ -526,6 +567,8 @@ footer {
       height: 42px; }
 .dashboard .middle {
   margin-top: 30px; }
+  .dashboard .middle #search {
+    margin-bottom: 20px; }
 .dashboard .whitebox {
   background: #ffffff;
   padding: 20px;
@@ -553,7 +596,8 @@ footer {
     .dashboard .index .db li {
       padding: 30px 10px;
       border-bottom: 1px solid #4c4b4d;
-      font-size: 12px; }
+      font-size: 15px;
+      letter-spacing: 0.5px; }
       .dashboard .index .db li a {
         color: #ffffff;
         text-decoration: none; }
@@ -570,6 +614,9 @@ footer {
       .dashboard .index .settings li a {
         color: #ccc;
         text-decoration: none; }
+.dashboard .searchedusers {
+  margin-top: 40px;
+  border: 0px; }
 
 /* Nav */
 .nav-tabs {
@@ -629,7 +676,8 @@ footer {
   float: left;
   width: 30%;
   text-align: center;
-  padding: 15px 0px; }
+  padding: 15px 0px;
+  font-size: 14px; }
   .accountnav ul li a {
     text-decoration: none; }
 

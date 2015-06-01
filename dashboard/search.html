@@ -70,81 +70,278 @@
           <li><a href="help.html" id="help">Help</a></li>
         </ul>
       </div>
-      <div class="col-lg-offset-1 col-lg-7 col-md-7 middle">
+      <div class="col-lg-offset-1 col-lg-8 col-md-8 middle">
         <div id="search"><a href="#">Search Again</a></div>
-        <h2><span>Results for</span> Searched Name here</h2>
-        <p>Add details for more accurate results. <a href="#">Advanced Search</a></p>
-        <div class="col-lg-2 form-inline">
-          <label>Countries</label> 
-          <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2><span>Results for</span> Searched Name here</h2>
+          </div>
+          <div class="col-lg-6 text-right">
+            <p>Add details for more accurate results. <a href="#">Advanced Search</a></p>
+          </div>
         </div>
-        <div class="col-lg-2 form-inline">
-          <label>Countries</label> 
-          <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+        <div class="row">
+          <div class="col-lg-2 form-inline">
+            <label>Countries</label> 
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="col-lg-2 form-inline">
+            <label>Sources</label> 
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="col-lg-2 form-inline">
+            <label>Type</label> 
+            <select class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="col-lg-3 right text-right">
+            <button class="lightgrey">Generate Report</button>  
+          </div>
         </div>
-        <div class="col-lg-2 form-inline">
-          <label>Countries</label> 
-          <select class="form-control">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="panel panel-default searchedusers">
+              <div class="panel-body">
+                <table class="table table-condensed" style="border-collapse:collapse;">
+                  <thead>
+                      <tr>
+                        <th>Last Name</th>
+                        <th>First Name</th>
+                        <th>Country, City, State/Province</th>
+                        <th>ID Verfifed</th>
+                        <th>Risk Score</th>
+                        <th>Risk Level</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <tr data-toggle="collapse" data-target="#personaldetails" class="accordion-toggle">
+                      <td>
+                        McKeen
+                        <button class="btn btn-default btn-xs right">
+                          <span class="glyphicon glyphicon-eye-open"></span>
+                        </button>
+                      </td>
+                      <td>Jean Paul Calhan</td>
+                      <td>Coming</td>
+                      <td><img src="../images/#" /></td>
+                      <td>186</td>
+                      <td><img src="../images/#" /></td>
+                    </tr>
+                    <tr>
+                  </tbody>
+                </table>
+                <div class="hiddenRow">
+                  <div class="accordian-body collapse" id="personaldetails"> 
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5>Personal Details</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <label>Gender</label>
+                        <p class="details">Male</p>
+                      </div>
+                      <div class="col-lg-1">
+                        <label>Height</label>
+                        <p class="details">5'9"</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Hair</label>
+                        <p class="details">Black (bald)</p>
+                      </div>
+                      <div class="col-lg-1">
+                        <label>Eyes</label>
+                        <p class="details">Brown</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Race</label>
+                        <p class="details">White (Persian)</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Scars</label>
+                        <p class="details">Unknown</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <label>Date of Birth</label>
+                        <p class="details">xx/xx/xxxx</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Country</label>
+                        <p class="details">Costa Rica</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Place of Birth</label>
+                        <p class="details">Jaco, Puntarenas</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Citizenship</label>
+                        <p class="details">Costa Rica, Brazil</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>AKA</label>
+                        <p class="details">
+                          Frankie Su, Larry Fanco<br />
+                          Frankie Su, Larry Fanco
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <label>Document</label>
+                        <p class="details">ID Card</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Country</label>
+                        <p class="details">Brazil</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>#</label>
+                        <p class="details">1234568725</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Issue Date</label>
+                        <p class="details">-</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Expiration Date</label>
+                        <p class="details">-</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <label>Document</label>
+                        <p class="details">Passport</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Country</label>
+                        <p class="details">Brazil</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>#</label>
+                        <p class="details">1234568725</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Issue Date</label>
+                        <p class="details">12 JAN 09</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Expiration Date</label>
+                        <p class="details">13 JAN 19</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <label>Address</label>
+                        <p class="details">5512 McLynn - H3XR1</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>City</label>
+                        <p class="details">Montreal</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Country</label>
+                        <p class="details">Canada</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Phone Number</label>
+                        <p class="details">514-3735229</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Email</label>
+                        <p class="details">larry.franco@notsafe.com</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5>Financial Details</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <label>Bank</label>
+                        <p class="details">Credit Bank</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Account type</label>
+                        <p class="details">Cash</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>#</label>
+                        <p class="details">2-528486-238</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Ownership</label>
+                        <p class="details">Unknwon</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <label>Email</label>
+                        <p class="details">larry.franco@notsafe.com</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <label>Credit Line ($)</label>
+                        <p class="details">10000</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Current Balance</label>
+                        <p class="details">12585</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Cash Limit ($)</label>
+                        <p class="details">500</p>
+                      </div>
+                      <div class="col-lg-2">
+                        <label>Amount Overdue</label>
+                        <p class="details">-</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5>Criminal Information Details</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <label class="red">Sanction List Matched</label>
+                        <p class="details">10000</p>
+                      </div>
+                      <div class="col-lg-4">
+                        <label>Lists</label>
+                        <p class="details">US Treasury SDN, FBI wanted person</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 text-center">
+                        <h5>Close Details</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
         </div>
-        <div class="col-lg-4 right">
-          <button class="grey">Generate Report</button>  
-        </div>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Last Name</th>
-              <th>First Name</th>
-              <th>Country, City, State/Province</th>
-              <th>ID Verified</th>
-              <th>Risk Score</th>
-              <th>Risk Level</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row">McKeen</td>
-              <td>Jean Paul Callahan</td>
-              <td>TBC</td>
-              <td><img src="images/check.png" /></td>
-              <td>125</td>
-              <td><img src="images/check.png" /></td>
-            </tr>
-            <tr>
-              <td scope="row">McKeen</td>
-              <td>Jean Paul Callahan</td>
-              <td>TBC</td>
-              <td><img src="images/check.png" /></td>
-              <td>125</td>
-              <td><img src="images/check.png" /></td>
-            </tr>
-            <tr>
-              <td scope="row">McKeen</td>
-              <td>Jean Paul Callahan</td>
-              <td>TBC</td>
-              <td><img src="images/check.png" /></td>
-              <td>125</td>
-              <td><img src="images/check.png" /></td>
-            </tr>
-          </tbody>
-        </table>
         <div class="right">
           <button class="blue">Generate Report</button>  
         </div>
