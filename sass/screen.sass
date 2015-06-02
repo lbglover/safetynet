@@ -67,7 +67,7 @@ button
 	color: #ffffff
 	text-transform: uppercase
 	border: 0px
-	padding: 8px 34px
+	padding: 15px 45px
 	letter-spacing: .5px
 	font-weight: 400
 	font-size: 14px
@@ -101,17 +101,15 @@ button
 
 .white
 	background: #fff
-	border: 1px solid #ccc
 	color: #2b2b2b
 
 	a
 		color: #2b2b2b
 
 small
-	font-size: 11px
+	font-size: 12px
 
 label
-	/* margin: 7px 0px 10px 0px */
 	font-size: 14px
 
 .navbar-fixed-top
@@ -210,7 +208,7 @@ nav
 				color: #25a4d7
 
 	h1
-		margin-top: 50px
+		margin-top: 40px
 		margin-bottom: 20px
 		font-size: 28px
 
@@ -218,19 +216,22 @@ nav
 		padding-bottom: 80px	
 
 		.verification
-			margin-top: 26px
-			margin-left: -20px
-			height: 48px
+			margin-top: 35px
+			width: 100%
+			height: 50px
 
 	.continuation
 		margin-top: 60px
+
+		button
+			width: 100%
 
 	.form-control
 		border: 1px solid #eee
 		-webkit-box-shadow: none
 
 	.form-group
-		margin: 10px 0px
+		margin-top: 15px
 
 	label
 		margin-bottom: 10px
@@ -240,7 +241,7 @@ nav
 		height: 50px
 		border: 1px solid #eee
 		box-shadow: 0px
-		color: #eee
+		color: #2b2b2b
 		font-size: 14px
 
 	select
@@ -298,7 +299,7 @@ nav
 
 	.cards
 		height: 20px
-		margin-left: 180px
+		float: right
 
 	.purchased
 		background: #fff
@@ -337,7 +338,10 @@ nav
 	padding: 0
 
 .indent
-	margin-left: 20px !important
+	margin-top: 50px
+
+	h4
+		margin-top: 50px
 
 .form-horizontal
 
@@ -700,7 +704,6 @@ footer
 
 			li
 				background: #333334
-				padding: 15px 10px !important
 				margin: 2px 0px
 				text-transform: uppercase
 				font-size: 12px
@@ -711,9 +714,34 @@ footer
 					color: #ccc
 					text-decoration: none
 
+			li:hover
+				background: red
+
 	.searchedusers
 		margin-top: 40px
 		border: 0px
+
+	#invitations
+		margin-top: 40px
+
+		table
+			margin-top: 10px
+
+			thead
+				border: 1px solid #fff
+				font-size: 12px
+
+			th
+				border-left: 0px
+				border-right: 0px
+				font-weight: 500
+
+			td:nth-of-type(4)
+				font-weight: 600
+
+			a
+				color: $blue
+
 
 /* Nav */
 .nav-tabs
@@ -789,9 +817,24 @@ footer
 			text-align: center
 			padding: 15px 0px
 			font-size: 14px
+			position: relative
 
 			a
 				text-decoration: none
+
+		li.active:after
+			top: 100%
+			left: 50%
+			border: solid transparent
+			content: " "
+			height: 0
+			width: 0
+			position: absolute
+			pointer-events: none
+			border-color: rgba(136, 183, 213, 0)
+			border-top-color: #d8eef9
+			border-width: 15px
+			margin-left: -15px
 
 #account
 	margin-top: 20px
@@ -804,7 +847,7 @@ footer
 #settings
 	background: url("../images/contact.png") no-repeat
 	background-position: 0% 50%
-	padding-left: 20px
+	padding-left: 30px
 
 #contact
 	background: url("../images/settings.png") no-repeat
@@ -813,5 +856,30 @@ footer
 
 #help
 	background: url("../images/help.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 23px
+
+#dash
+	background: url("../images/dashboard.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 23px
+
+#dbsearch
+	background: url("../images/search-white.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 23px
+
+#dbreports
+	background: url("../images/reports.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 23px
+
+#dbhistory
+	background: url("../images/history.png") no-repeat
+	background-position: 0% 50%
+	padding-left: 23px
+
+#dbusers
+	background: url("../images/users.png") no-repeat
 	background-position: 0% 50%
 	padding-left: 23px
