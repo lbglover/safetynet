@@ -12,6 +12,7 @@ $blue: #1dabe6
 $grey: #404042
 $lightgrey: #f3f3f3
 $white: #ffffff
+$red: #c6352c
 
 body
 	background: #fafafa
@@ -102,6 +103,10 @@ button
 .grey
 	background: #404042
 
+.none
+	background: transparent
+	color: #2b2b2b
+
 .whitebtn
 	border: 1px solid $grey
 	background: #fff
@@ -133,6 +138,9 @@ label
 	margin-top: 0px
 	padding-top: 0px
 
+.nav>li>a:focus, .nav>li>a:hover
+	background: transparent
+
 nav
 	.open > .dropdown-menu
 		display: block
@@ -148,6 +156,34 @@ nav
 
 		a
 			text-decoration: underline
+
+	.dropdown-menu.loggedinmenu
+		background: #fff !important
+
+	#loggedin
+
+		.loggedinmenu
+			ul
+				li
+					padding-bottom: 5px
+
+				li:hover
+					background: transparent
+
+			hr
+				margin: 10px 0px
+
+		.initials
+			background-color: $lightblue
+			border-radius: 50%
+			height: 45px
+			width: 45px
+			vertical-align: middle
+			text-align: center
+			padding-top: 12px
+			border: 2px solid $blue
+			font-weight: 600
+		
 
 	#btnLogin
 		display: block
@@ -165,7 +201,7 @@ nav
 	input
 		margin-bottom: 10px
 
-	.nav .open>a, .nav .open>a:focus, .nav .open>a:hover
+	.nav .open>a:focus, .nav .open>a:hover
 		background: transparent
 
 .topheader
@@ -455,6 +491,7 @@ nav
 	h5
 		font-size: 16px
 		font-weight: 600
+		margin-bottom: -15px
 		color: $blue
 
 .more
@@ -658,6 +695,24 @@ footer
 		color: $grey
 		margin-bottom: 10px
 
+	.matched
+		font-weight: 600
+		font-size: 14px
+		text-transform: uppercase
+		color: $red
+
+	.unboxed
+		select
+			background-color: transparent
+			border: none
+			box-shadow: none
+			color: $blue
+			font-size: 25px
+
+		label
+			vertical-align: middle
+			margin-top: 5px
+
 	.searchbox
 		margin: 10px 0px
 
@@ -741,6 +796,27 @@ footer
 		margin-top: 40px
 		border: 0px
 
+		table
+			margin-top: 10px
+
+			thead
+				border: 1px solid #fff
+				font-size: 12px
+
+			th
+				border-left: 0px
+				border-right: 0px
+				font-weight: 500
+
+			td
+				vertical-align: middle
+
+			td:nth-of-type(4)
+				font-weight: 600
+
+			a
+				color: $blue
+
 	#invitations
 		margin-top: 40px
 
@@ -755,6 +831,9 @@ footer
 				border-left: 0px
 				border-right: 0px
 				font-weight: 500
+
+			td
+				vertical-align: middle
 
 			td:nth-of-type(4)
 				font-weight: 600
@@ -778,6 +857,9 @@ footer
 				border-right: 0px
 				font-weight: 500
 
+			td
+				vertical-align: middle
+
 			a
 				color: $blue
 
@@ -786,6 +868,20 @@ footer
 
 		.lighterblue
 			padding-top: 15px
+			position: relative
+			height: 66px
+
+		.lighterblue:after 
+			bottom: 100%
+			left: 50%
+			border: solid transparent
+			content: " "
+			position: absolute
+			pointer-events: none
+			border-color: rgba(136, 183, 213, 0)
+			border-bottom-color: $lighterblue
+			border-width: 12px
+			margin-left: -12px
 
 	.apikeys, .latestreports, .monthcount
 		td:nth-child(2)
@@ -804,7 +900,19 @@ footer
 			font-weight: 800
 
 		.lighterblue
+			padding-top: 15px
+
+		.lighterblue::after
 			padding: 10px 0px
+			border-bottom: 1px solid $grey
+			width: 90%
+			text-align: center
+			vertical-align: middle
+			margin-left: auto
+			margin-right: auto
+
+		.lighterblue:nth-child(4)::after
+			border-bottom: 0px solid $grey
 
 	.margin5
 		margin-left: 5px

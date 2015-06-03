@@ -136,6 +136,10 @@ button {
 .grey {
   background: #404042; }
 
+.none {
+  background: transparent;
+  color: #2b2b2b; }
+
 .whitebtn {
   border: 1px solid #404042;
   background: #fff;
@@ -165,6 +169,9 @@ label {
   margin-top: 0px;
   padding-top: 0px; }
 
+.nav > li > a:focus, .nav > li > a:hover {
+  background: transparent; }
+
 nav .open > .dropdown-menu {
   display: block;
   border: 2px solid #2fade4;
@@ -176,6 +183,24 @@ nav .dropdown-menu {
     font-weight: 600; }
   nav .dropdown-menu a {
     text-decoration: underline; }
+nav .dropdown-menu.loggedinmenu {
+  background: #fff !important; }
+nav #loggedin .loggedinmenu ul li {
+  padding-bottom: 5px; }
+nav #loggedin .loggedinmenu ul li:hover {
+  background: transparent; }
+nav #loggedin .loggedinmenu hr {
+  margin: 10px 0px; }
+nav #loggedin .initials {
+  background-color: #76c9ec;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 12px;
+  border: 2px solid #1dabe6;
+  font-weight: 600; }
 nav #btnLogin {
   display: block;
   width: 100%;
@@ -188,7 +213,7 @@ nav a.uppercase {
   text-decoration: none; }
 nav input {
   margin-bottom: 10px; }
-nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
+nav .nav .open > a:focus, nav .nav .open > a:hover {
   background: transparent; }
 
 .topheader {
@@ -412,6 +437,7 @@ nav .nav .open > a, nav .nav .open > a:focus, nav .nav .open > a:hover {
   #personaldetails h5 {
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: -15px;
     color: #1dabe6; }
 
 .more {
@@ -575,6 +601,20 @@ footer {
 .dashboard h5 {
   color: #404042;
   margin-bottom: 10px; }
+.dashboard .matched {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #c6352c; }
+.dashboard .unboxed select {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #1dabe6;
+  font-size: 25px; }
+.dashboard .unboxed label {
+  vertical-align: middle;
+  margin-top: 5px; }
 .dashboard .searchbox {
   margin: 10px 0px; }
   .dashboard .searchbox #searchbox {
@@ -638,6 +678,21 @@ footer {
 .dashboard .searchedusers {
   margin-top: 40px;
   border: 0px; }
+  .dashboard .searchedusers table {
+    margin-top: 10px; }
+    .dashboard .searchedusers table thead {
+      border: 1px solid #fff;
+      font-size: 12px; }
+    .dashboard .searchedusers table th {
+      border-left: 0px;
+      border-right: 0px;
+      font-weight: 500; }
+    .dashboard .searchedusers table td {
+      vertical-align: middle; }
+    .dashboard .searchedusers table td:nth-of-type(4) {
+      font-weight: 600; }
+    .dashboard .searchedusers table a {
+      color: #1dabe6; }
 .dashboard #invitations {
   margin-top: 40px; }
   .dashboard #invitations table {
@@ -649,6 +704,8 @@ footer {
       border-left: 0px;
       border-right: 0px;
       font-weight: 500; }
+    .dashboard #invitations table td {
+      vertical-align: middle; }
     .dashboard #invitations table td:nth-of-type(4) {
       font-weight: 600; }
     .dashboard #invitations table a {
@@ -665,12 +722,27 @@ footer {
       border-left: 0px;
       border-right: 0px;
       font-weight: 500; }
+    .dashboard #usersearch table td {
+      vertical-align: middle; }
     .dashboard #usersearch table a {
       color: #1dabe6; }
   .dashboard #usersearch button {
     padding: 5px 40px; }
   .dashboard #usersearch .lighterblue {
-    padding-top: 15px; }
+    padding-top: 15px;
+    position: relative;
+    height: 66px; }
+  .dashboard #usersearch .lighterblue:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #d8eef9;
+    border-width: 12px;
+    margin-left: -12px; }
 .dashboard .apikeys td:nth-child(2), .dashboard .latestreports td:nth-child(2), .dashboard .monthcount td:nth-child(2) {
   text-align: right; }
 .dashboard .apikeys button, .dashboard .latestreports button, .dashboard .monthcount button {
@@ -682,7 +754,17 @@ footer {
 .dashboard .monthcount .strong {
   font-weight: 800; }
 .dashboard .monthcount .lighterblue {
-  padding: 10px 0px; }
+  padding-top: 15px; }
+.dashboard .monthcount .lighterblue::after {
+  padding: 10px 0px;
+  border-bottom: 1px solid #404042;
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto; }
+.dashboard .monthcount .lighterblue:nth-child(4)::after {
+  border-bottom: 0px solid #404042; }
 .dashboard .margin5 {
   margin-left: 5px; }
 
