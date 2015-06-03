@@ -590,7 +590,7 @@ footer {
   padding-left: 0px; }
 .dashboard .index {
   background: #414042;
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 50px 0px;
   margin: 0; }
   .dashboard .index .db {
     font-size: 15px;
@@ -604,10 +604,11 @@ footer {
         color: #ffffff;
         text-decoration: none; }
   .dashboard .index .settings {
-    margin-top: 350px; }
+    margin: 350px 10px 0px 10px; }
     .dashboard .index .settings li {
       background: #333334;
       margin: 2px 0px;
+      padding: 10px 15px;
       text-transform: uppercase;
       font-size: 12px;
       letter-spacing: 0.5px;
@@ -616,7 +617,7 @@ footer {
         color: #ccc;
         text-decoration: none; }
     .dashboard .index .settings li:hover {
-      background: red; }
+      background: #1dabe6; }
 .dashboard .searchedusers {
   margin-top: 40px;
   border: 0px; }
@@ -635,6 +636,15 @@ footer {
       font-weight: 600; }
     .dashboard #invitations table a {
       color: #1dabe6; }
+.dashboard .apikeys td:nth-child(2), .dashboard .latestreports td:nth-child(2), .dashboard .monthcount td:nth-child(2) {
+  text-align: right; }
+.dashboard .apikeys button, .dashboard .latestreports button, .dashboard .monthcount button {
+  margin-top: 40px;
+  padding: 8px 20px; }
+.dashboard .monthcount .totals {
+  font-size: 30px; }
+.dashboard .monthcount .strong {
+  font-weight: 800; }
 
 /* Nav */
 .nav-tabs {
@@ -723,7 +733,7 @@ footer {
 #settings {
   background: url("../images/contact.png") no-repeat;
   background-position: 0% 50%;
-  padding-left: 30px; }
+  padding-left: 20px; }
 
 #contact {
   background: url("../images/settings.png") no-repeat;
