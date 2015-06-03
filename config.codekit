@@ -128,11 +128,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dashboard\/search-expanded.html": {
+	"\/dashboard\/search-old.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dashboard\/search-expanded.html",
+		"inputAbbreviatedPath": "\/dashboard\/search-old.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -228,6 +228,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/dashboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1216,
+		"inputAbbreviatedPath": "\/images\/dashboard.png",
+		"outputAbbreviatedPath": "\/images\/dashboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -246,6 +257,17 @@
 		"initialSize": 1181,
 		"inputAbbreviatedPath": "\/images\/help.png",
 		"outputAbbreviatedPath": "\/images\/help.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/history.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1126,
+		"inputAbbreviatedPath": "\/images\/history.png",
+		"outputAbbreviatedPath": "\/images\/history.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -294,6 +316,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/reports.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1104,
+		"inputAbbreviatedPath": "\/images\/reports.png",
+		"outputAbbreviatedPath": "\/images\/reports.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/safetynet.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -312,6 +345,17 @@
 		"initialSize": 35398,
 		"inputAbbreviatedPath": "\/images\/safetynetfeature.png",
 		"outputAbbreviatedPath": "\/images\/safetynetfeature.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/search-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1116,
+		"inputAbbreviatedPath": "\/images\/search-white.png",
+		"outputAbbreviatedPath": "\/images\/search-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -345,6 +389,17 @@
 		"initialSize": 1840,
 		"inputAbbreviatedPath": "\/images\/twitter.png",
 		"outputAbbreviatedPath": "\/images\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/users.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1066,
+		"inputAbbreviatedPath": "\/images\/users.png",
+		"outputAbbreviatedPath": "\/images\/users.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
