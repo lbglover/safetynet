@@ -94,6 +94,9 @@ h4 {
 strong {
   font-weight: 600; }
 
+.clear {
+  clear: both; }
+
 .uppercase {
   text-transform: uppercase; }
 
@@ -172,6 +175,9 @@ label {
 .nav > li > a:focus, .nav > li > a:hover {
   background: transparent; }
 
+nav .nav .open > a:focus, nav .nav .open > a:hover {
+  background: transparent; }
+
 nav .open > .dropdown-menu {
   display: block;
   border: 2px solid #2fade4;
@@ -185,22 +191,46 @@ nav .dropdown-menu {
     text-decoration: underline; }
 nav .dropdown-menu.loggedinmenu {
   background: #fff !important; }
-nav #loggedin .loggedinmenu ul li {
-  padding-bottom: 5px; }
-nav #loggedin .loggedinmenu ul li:hover {
-  background: transparent; }
-nav #loggedin .loggedinmenu hr {
-  margin: 10px 0px; }
-nav #loggedin .initials {
-  background-color: #76c9ec;
-  border-radius: 50%;
-  height: 45px;
-  width: 45px;
-  vertical-align: middle;
-  text-align: center;
-  padding-top: 12px;
-  border: 2px solid #1dabe6;
-  font-weight: 600; }
+nav #loggedin {
+  margin-top: -15px; }
+  nav #loggedin a {
+    text-decoration: none;
+    padding: 0px; }
+  nav #loggedin li:first-child {
+    vertical-align: middle;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px; }
+  nav #loggedin .loggedinmenu ul li {
+    padding-bottom: 5px; }
+  nav #loggedin .loggedinmenu ul li:hover {
+    background: transparent; }
+  nav #loggedin .loggedinmenu hr {
+    margin: 10px 0px; }
+  nav #loggedin .initials {
+    background-color: #76c9ec;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 12px;
+    border: 2px solid #1dabe6;
+    font-weight: 600;
+    float: left; }
+  nav #loggedin .welcome {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-left: 15px;
+    text-transform: none; }
+    nav #loggedin .welcome span {
+      font-weight: 600; }
+  nav #loggedin .messages {
+    float: left;
+    margin-top: 15px; }
+  nav #loggedin .arrowdown {
+    margin-top: 30px; }
 nav #btnLogin {
   display: block;
   width: 100%;
@@ -214,28 +244,29 @@ nav a.uppercase {
 nav input {
   margin-bottom: 10px; }
 nav .nav .open > a:focus, nav .nav .open > a:hover {
-  background: transparent; }
+  background: transparent !important; }
 
 .topheader {
   margin-top: 0px; }
   .topheader li {
-    font-size: 13px;
+    font-size: 12px;
     margin-right: 15px; }
     .topheader li a {
-      text-decoration: none; }
+      text-decoration: none;
+      padding-top: 6px; }
     .topheader li a:hover {
       background: transparent; }
   .topheader #search {
     background: url("../images/searchicon.png") no-repeat;
-    background-position: 0% 50%;
+    background-position: 0% 36%;
     padding-left: 5px; }
   .topheader #email {
     background: url("../images/mailicon.png") no-repeat;
-    background-position: 0% 50%;
+    background-position: 0% 36%;
     padding-left: 5px; }
   .topheader #number {
     background: url("../images/phone.png") no-repeat;
-    background-position: 0% 50%;
+    background-position: 0% 36%;
     padding-left: 5px; }
 
 .registeration .intro {
@@ -648,10 +679,26 @@ footer {
 .dashboard .index {
   background: #414042;
   padding: 20px 0px 50px 0px;
-  margin: 0; }
+  margin: 0;
+  width: 180px; }
   .dashboard .index .db {
     font-size: 15px;
     color: #fff; }
+    .dashboard .index .db .live {
+      background: #1dabe6;
+      position: relative; }
+    .dashboard .index .db .live::after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      margin-top: -10px;
+      width: 20px;
+      height: 20px;
+      background: #fafafa;
+      transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg); }
     .dashboard .index .db li {
       padding: 30px 10px;
       border-bottom: 1px solid #4c4b4d;
@@ -659,7 +706,10 @@ footer {
       letter-spacing: 0.5px; }
       .dashboard .index .db li a {
         color: #ffffff;
-        text-decoration: none; }
+        text-decoration: none;
+        margin-left: 16px; }
+    .dashboard .index .db li:hover {
+      background: #1dabe6; }
   .dashboard .index .settings {
     margin: 350px 10px 0px 10px; }
     .dashboard .index .settings li {
