@@ -653,6 +653,24 @@ footer {
       font-weight: 600; }
     .dashboard #invitations table a {
       color: #1dabe6; }
+.dashboard #usersearch {
+  margin-bottom: 20px;
+  padding-top: 15px; }
+  .dashboard #usersearch table {
+    margin-top: 10px; }
+    .dashboard #usersearch table thead {
+      border: 1px solid #fff;
+      font-size: 12px; }
+    .dashboard #usersearch table th {
+      border-left: 0px;
+      border-right: 0px;
+      font-weight: 500; }
+    .dashboard #usersearch table a {
+      color: #1dabe6; }
+  .dashboard #usersearch button {
+    padding: 5px 40px; }
+  .dashboard #usersearch .lighterblue {
+    padding-top: 15px; }
 .dashboard .apikeys td:nth-child(2), .dashboard .latestreports td:nth-child(2), .dashboard .monthcount td:nth-child(2) {
   text-align: right; }
 .dashboard .apikeys button, .dashboard .latestreports button, .dashboard .monthcount button {
