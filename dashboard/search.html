@@ -61,8 +61,8 @@
                 <button class="none">
                   <div class="initials">LG</div>
                   <div class="welcome">Welcome <span class="name">LAURA G</span></div>
-                  <div class="messages"><img src="mail.png"></div>
-                  <div class="arrowdown"></div>
+                  <div class="messages"><img src="../images/messages.png"></div>
+                  <div class="arrowdown"><img src="../images/down.png"></div>
                 </button>
               </a>
               <div class="dropdown-menu loggedinmenu">
@@ -156,8 +156,8 @@
                       </tr>
                   </thead>
                   <tbody>
-                    <tr data-toggle="collapse" data-target="#personaldetails" class="accordion-toggle">
-                      <td>
+                    <tr>
+                      <td scope="row">
                         McKeen
                         <button class="btn btn-default btn-xs right">
                           <span class="glyphicon glyphicon-eye-open"></span>
@@ -169,7 +169,19 @@
                       <td>186</td>
                       <td><img src="../images/risk.png" /></td>
                     </tr>
-                    <tr>
+                    <tr data-toggle="collapse" data-target="#personaldetails" class="accordion-toggle active">
+                      <td scope="row">
+                        McKeen
+                        <button class="btn btn-default btn-xs right">
+                          <span class="glyphicon glyphicon-eye-open"></span>
+                        </button>
+                      </td>
+                      <td>Jean Paul Calhan</td>
+                      <td>Coming</td>
+                      <td><img src="../images/check.png" /></td>
+                      <td>186</td>
+                      <td><img src="../images/risk.png" /></td>
+                    </tr>
                   </tbody>
                 </table>
                 <div class="hiddenRow">
@@ -178,7 +190,7 @@
                       <div class="col-lg-6">
                         <h5>Personal Details</h5>
                       </div>
-                      <div class="col-lg-offset-1 col-lg-4 text-right right red uppercase fbi">
+                      <div class="col-lg-5 text-right right red uppercase fbi">
                         <p>FBI | SOMETHING ELSE WANTED PERSON</p>
                       </div>
                     </div>

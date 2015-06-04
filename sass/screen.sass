@@ -141,6 +141,7 @@ label
 #navLogin
 	margin-top: 0px
 	padding-top: 0px
+	padding-right: 0px
 
 .nav>li>a:focus, .nav>li>a:hover
 	background: transparent
@@ -239,6 +240,12 @@ nav
 
 	.nav .open>a:focus, .nav .open>a:hover
 		background: transparent !important
+
+	.mainnav 
+		li 
+			a
+				font-size: 12px
+				text-decoration: none
 
 .topheader
 	margin-top: 0px
@@ -407,6 +414,9 @@ nav
 			margin-top: 20px
 			margin-bottom: 0px
 
+			h3
+				font-size: 24px
+
 		.total
 			text-transform: uppercase
 			font-weight: 600
@@ -490,7 +500,7 @@ nav
 			font-size: 20px
 			margin-bottom: 0px
 			padding: 10px 0px
-				
+
 		#info
 			padding: 24px
 			font-size: 12px
@@ -516,7 +526,10 @@ nav
 		margin: 30px 0px
 		
 #personaldetails
-	font-size: 12px
+	background: #d8eef9
+	margin-top: -20px
+	padding-top: 20px
+	padding: 10px
 
 	.row
 		margin-bottom: 30px
@@ -875,6 +888,9 @@ footer
 				border-left: 0px
 				border-right: 0px
 				font-weight: 500
+				
+			tbody>tr.active>td
+				background: $lighterblue
 
 			td
 				vertical-align: middle
