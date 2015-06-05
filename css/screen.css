@@ -248,7 +248,7 @@ nav input {
 nav .nav .open > a:focus, nav .nav .open > a:hover {
   background: transparent !important; }
 nav .mainnav li a {
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none; }
 
 .topheader {
@@ -308,9 +308,8 @@ nav .mainnav li a {
   border: 1px solid #eee;
   -webkit-box-shadow: none; }
 .registeration .form-group {
-  margin-top: 15px; }
+  margin-top: 0px; }
 .registeration label {
-  margin-bottom: 10px;
   font-size: 13px; }
 .registeration input {
   height: 50px;
@@ -394,9 +393,7 @@ nav .mainnav li a {
   padding: 0; }
 
 .indent {
-  margin-top: 50px; }
-  .indent h4 {
-    margin-top: 50px; }
+  margin-top: 30px; }
 
 .form-horizontal h4 {
   padding-left: 0px;
@@ -448,7 +445,8 @@ nav .mainnav li a {
     padding: 10px 0px; }
   .pricingtable table #info {
     padding: 24px;
-    font-size: 12px; }
+    font-size: 12px;
+    line-height: 20px !important; }
 .pricingtable .none {
   visibility: hidden; }
 .pricingtable .price {
@@ -466,15 +464,16 @@ nav .mainnav li a {
   margin: 30px 0px; }
 
 #personaldetails {
-  background: #d8eef9;
   margin-top: -20px;
   padding-top: 20px;
   padding: 10px; }
   #personaldetails .row {
     margin-bottom: 30px; }
     #personaldetails .row label {
-      font-weight: 500;
-      margin-bottom: 0px; }
+      font-weight: 400;
+      margin-bottom: 0px;
+      color: #999;
+      font-size: 12px; }
   #personaldetails h5 {
     font-size: 16px;
     font-weight: 600;
@@ -696,7 +695,7 @@ footer {
   padding-left: 0px; }
 .dashboard .index {
   background: #414042;
-  padding: 20px 0px 50px 0px;
+  padding: 6px 0px 50px 0px;
   margin: 0;
   width: 180px; }
   .dashboard .index .db {
@@ -824,7 +823,8 @@ footer {
     .dashboard #reports table th {
       border-left: 0px;
       border-right: 0px;
-      font-weight: 500; }
+      font-weight: 500;
+      color: #999; }
     .dashboard #reports table td {
       vertical-align: middle; }
     .dashboard #reports table a {
