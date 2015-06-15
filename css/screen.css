@@ -73,6 +73,9 @@ p {
 section {
   padding: 80px 0px 100px 0px; }
 
+h1, h2, h3, h4, h6 {
+  letter-spacing: 0.5px; }
+
 h1 {
   font-size: 33px;
   margin-bottom: 20px;
@@ -112,7 +115,8 @@ button {
   padding: 8px 45px;
   letter-spacing: 0.5px;
   font-weight: 400;
-  font-size: 13px; }
+  font-size: 13px;
+  margin-right: 10px; }
   button a {
     color: #fff;
     text-decoration: none; }
@@ -156,6 +160,11 @@ button {
 
 .width100 {
   width: 100%; }
+
+.subtitle {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 32px; }
 
 small {
   font-size: 11px; }
@@ -249,7 +258,10 @@ nav .nav .open > a:focus, nav .nav .open > a:hover {
   background: transparent !important; }
 nav .mainnav li a {
   font-size: 13px;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px; }
 
 .topheader {
   margin-top: 0px; }
@@ -274,111 +286,111 @@ nav .mainnav li a {
     background-position: 0% 36%;
     padding-left: 5px; }
 
-.registeration .intro {
+.registration .intro {
   padding-left: 0px; }
-.registeration .copy {
+.registration .copy {
   font-size: 13px;
   line-height: 20px;
   border-top: 1px solid #2b2b2b;
   padding-top: 40px;
   margin-top: 40px; }
-  .registeration .copy p {
+  .registration .copy p {
     margin-bottom: 10px; }
-  .registeration .copy .terms {
+  .registration .copy .terms {
     margin-bottom: 30px; }
-  .registeration .copy #login {
+  .registration .copy #login {
     padding-top: 15px; }
-    .registeration .copy #login a {
+    .registration .copy #login a {
       color: #25a4d7; }
-.registeration h1 {
+.registration h1 {
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 28px; }
-.registeration form {
+.registration form {
   padding-bottom: 80px; }
-  .registeration form .verification {
+  .registration form .verification {
     margin-top: 35px;
     width: 100%;
     height: 50px; }
-.registeration .continuation {
+.registration .continuation {
   margin-top: 60px; }
-  .registeration .continuation button {
+  .registration .continuation button {
     width: 100%; }
-.registeration .form-control {
+.registration .form-control {
   border: 1px solid #eee;
   -webkit-box-shadow: none; }
-.registeration .form-group {
+.registration .form-group {
   margin-top: 0px; }
-.registeration label {
+.registration label {
   font-size: 13px; }
-.registeration input {
+.registration input {
   height: 50px;
   border: 1px solid #eee;
   box-shadow: 0px;
   color: #2b2b2b;
   font-size: 13px; }
-.registeration select {
+.registration select {
   height: 50px;
   border: 1px solid #eee;
   box-shadow: 0px; }
-.registeration #inlineCheckbox1 {
+.registration #inlineCheckbox1 {
   height: 30px;
   width: 30px;
   padding-right: 20px;
   margin-top: -5px; }
-.registeration .checkbox-inline {
+.registration .checkbox-inline {
   font-size: 11px; }
-.registeration .optional {
+.registration .optional {
   float: right;
-  color: #25a4d7; }
-.registeration .progression {
+  color: #858387; }
+.registration .progression {
   padding: 80px 0px 100px 0px;
   color: grey; }
-  .registeration .progression li {
+  .registration .progression li {
     float: left;
     margin-right: 110px;
     text-align: center; }
-    .registeration .progression li a {
+    .registration .progression li a {
       text-decoration: none;
       color: inherit; }
-  .registeration .progression span.circle {
+  .registration .progression span.circle {
     padding: 10px 15px;
     border: 2px solid #eee;
     border-radius: 50%; }
-  .registeration .progression .active {
+  .registration .progression .active {
     color: #25a4d7; }
-    .registeration .progression .active span {
+    .registration .progression .active span {
       border: 4px solid #25a4d7; }
-  .registeration .progression p.details {
+  .registration .progression p.details {
     margin-top: 30px;
     font-size: 13px; }
-.registeration .addon {
+.registration .addon {
   margin-top: 80px; }
-  .registeration .addon label {
+  .registration .addon label {
     margin-top: 14px; }
-.registeration .cards {
+.registration .cards {
   height: 20px;
   float: right; }
-.registeration .purchased {
+.registration .purchased {
   background: #fff;
   border: 1px solid grey;
   padding: 20px;
   margin-top: 100px;
   font-size: 13px; }
-  .registeration .purchased h3 {
+  .registration .purchased h3 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0px; }
-  .registeration .purchased h4 {
+  .registration .purchased h4 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400; }
-  .registeration .purchased .planselection {
+  .registration .purchased .planselection {
     margin-top: 20px;
     margin-bottom: 0px; }
-    .registeration .purchased .planselection h3 {
+    .registration .purchased .planselection h3 {
       font-size: 24px; }
-  .registeration .purchased .total {
+  .registration .purchased .total {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 18px;
@@ -488,6 +500,10 @@ nav .mainnav li a {
   margin-top: 60px; }
 
 /* Homepage */
+.homepage h1 {
+  font-weight: 400; }
+.homepage h3 {
+  font-weight: 600; }
 .homepage nav button {
   padding: 5px 26px;
   margin-top: 7px; }
@@ -518,7 +534,8 @@ nav .mainnav li a {
     background: #f3f3f3; }
 
 .video {
-  margin-top: 60px; }
+  margin-top: 60px;
+  margin-left: 17px; }
 
 #demo {
   margin: 0px;
@@ -538,7 +555,8 @@ nav .mainnav li a {
   padding: 0px !important; }
 
 .contact form {
-  width: 75%; }
+  width: 90%;
+  margin-left: 20px; }
 
 /* Footer */
 .greyfooter {
@@ -547,10 +565,10 @@ nav .mainnav li a {
   margin-top: 60px;
   color: #fff; }
   .greyfooter h4 {
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    letter-spacing: 0.5px; }
+    font-weight: 500; }
   .greyfooter p {
     font-size: 13px;
     color: #dbf1fa;
@@ -559,10 +577,10 @@ nav .mainnav li a {
     margin-top: 15px; }
     .greyfooter .list li {
       font-size: 13px;
-      line-height: 25px;
+      line-height: 30px;
       margin: 5px 0px; }
       .greyfooter .list li a {
-        color: #eee;
+        color: #a3b1bf;
         text-decoration: none; }
   .greyfooter .intouch {
     margin-top: 20px;
@@ -577,15 +595,15 @@ nav .mainnav li a {
       float: left;
       margin-right: 15px; }
   .greyfooter #address {
-    background: url("../images/searchicon.png") no-repeat;
+    background: url("../images/location-icon.png") no-repeat;
     background-position: 0% 50%;
     padding-left: 25px; }
   .greyfooter #email {
-    background: url("../images/mailicon.png") no-repeat;
+    background: url("../images/phone-icon-blue.png") no-repeat;
     background-position: 0% 50%;
     padding-left: 25px; }
   .greyfooter #number {
-    background: url("../images/phone.png") no-repeat;
+    background: url("../images/mail-icon-blue.png") no-repeat;
     background-position: 0% 50%;
     padding-left: 25px; }
   .greyfooter #mc_embed_signup_scroll {
@@ -596,7 +614,7 @@ nav .mainnav li a {
 
 footer {
   background: #d8eef9;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px 70px 0px;
   margin-top: 100px;
   font-size: 12px; }
   footer p {
@@ -626,7 +644,8 @@ footer {
   footer .copyright {
     float: left; }
     footer .copyright p {
-      font-size: 11px; }
+      font-size: 11px;
+      margin-top: 8px; }
 
 /* Dashboard */
 .dashboard h2 {
