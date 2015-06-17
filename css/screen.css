@@ -103,6 +103,9 @@ strong {
 .uppercase {
   text-transform: uppercase; }
 
+.underline {
+  text-decoration: underline; }
+
 .space {
   padding-top: 20px; }
 
@@ -180,27 +183,36 @@ label {
 #navLogin {
   margin-top: 0px;
   padding-top: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  background: #ffffff; }
 
 .nav > li > a:focus, .nav > li > a:hover {
   background: transparent; }
 
 nav .nav .open > a:focus, nav .nav .open > a:hover {
-  background: transparent; }
+  background: transparent !important; }
 
 nav .open > .dropdown-menu {
   display: block;
   border: 2px solid #2fade4;
-  background-color: #e9f6fc; }
+  background-color: #e9f6fc;
+  margin-top: 3px; }
 nav .dropdown-menu {
-  padding: 30px 20px !important;
-  width: 275px; }
+  padding: 30px !important;
+  width: 300px; }
+  nav .dropdown-menu h3 {
+    margin-bottom: 0px; }
+  nav .dropdown-menu label, nav .dropdown-menu input {
+    font-size: 12px; }
   nav .dropdown-menu label {
-    font-weight: 600; }
+    margin-top: 12px; }
   nav .dropdown-menu a {
     text-decoration: underline; }
 nav .dropdown-menu.loggedinmenu {
   background: #fff !important; }
+nav #menuLogin .dropdown-menu {
+  background: #fff;
+  margin-top: 1px; }
 nav #loggedin {
   margin-top: -15px; }
   nav #loggedin a {
@@ -262,6 +274,9 @@ nav .mainnav li a {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.5px; }
+nav .mainnav form a {
+  text-transform: none !important;
+  font-size: 12px; }
 
 .topheader {
   margin-top: 0px; }
@@ -889,6 +904,8 @@ footer {
   border-bottom: 0px solid #404042; }
 .dashboard .margin5 {
   margin-left: 5px; }
+.dashboard #menuLogin .dropdown-menu {
+  margin-top: 9px; }
 
 /* Nav */
 .nav-tabs {
