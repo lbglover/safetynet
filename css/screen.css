@@ -103,6 +103,9 @@ strong {
 .uppercase {
   text-transform: uppercase; }
 
+.lowercase {
+  text-transform: none !important; }
+
 .underline {
   text-decoration: underline; }
 
@@ -119,13 +122,18 @@ button {
   letter-spacing: 0.5px;
   font-weight: 400;
   font-size: 13px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  transition: all 0.3s ease 0s; }
   button a {
     color: #fff;
     text-decoration: none; }
   button a:hover {
     text-decoration: none;
     color: inherit; }
+
+button:hover {
+  background: #1dabe6;
+  color: #fff; }
 
 .left {
   float: left; }
@@ -275,8 +283,10 @@ nav .mainnav li a {
   font-weight: 500;
   letter-spacing: 0.5px; }
 nav .mainnav form a {
-  text-transform: none !important;
   font-size: 12px; }
+nav #menuLogin button.whitebtn:hover {
+  background: none;
+  color: #404042; }
 
 .topheader {
   margin-top: 0px; }
@@ -422,6 +432,9 @@ nav .mainnav form a {
 .indent {
   margin-top: 30px; }
 
+.indentleft {
+  margin-left: 30px; }
+
 .form-horizontal h4 {
   padding-left: 0px;
   font-size: 16px; }
@@ -440,7 +453,7 @@ nav .mainnav form a {
   margin-top: 50px; }
   .pricingtable table th {
     text-align: center;
-    padding: 25px 0px !important;
+    padding: 12px 0px !important;
     font-size: 16px;
     font-weight: 500; }
   .pricingtable table td, .pricingtable table th {
@@ -463,6 +476,10 @@ nav .mainnav form a {
   .pricingtable table th:nth-child(3) {
     background: #404042;
     color: #fff; }
+  .pricingtable table tr:nth-child(5) {
+    background: #fff; }
+  .pricingtable table tr:nth-child(3) {
+    background: #fff; }
   .pricingtable table th:first-child {
     background: #fafafa; }
   .pricingtable table h3 {
