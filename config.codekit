@@ -202,6 +202,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/cameron.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163116,
+		"inputAbbreviatedPath": "\/images\/cameron.jpg",
+		"outputAbbreviatedPath": "\/images\/cameron.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/characteristics.png": {
 		"fileType": 32768,
 		"ignore": 0,

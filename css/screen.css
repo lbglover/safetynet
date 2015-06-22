@@ -287,6 +287,8 @@ nav .mainnav form a {
 nav #menuLogin button.whitebtn:hover {
   background: none;
   color: #404042; }
+nav #menuRegister #btnLogin {
+  margin-top: 20px; }
 
 .topheader {
   margin-top: 0px; }
@@ -541,8 +543,11 @@ nav #menuLogin button.whitebtn:hover {
   margin-top: 7px; }
 
 .jumbotron {
-  background: url("../images/background.jpg") 100%;
-  height: 550px; }
+  background: url("../images/background.jpg");
+  background-size: cover;
+  height: 550px;
+  margin-top: 11px;
+  color: #ffffff; }
   .jumbotron h1 {
     font-size: 36px;
     margin-bottom: 15px;
@@ -551,8 +556,12 @@ nav #menuLogin button.whitebtn:hover {
     line-height: 48px; }
   .jumbotron p {
     font-size: 13px;
-    width: 70%;
+    width: 46%;
     font-weight: 400; }
+  .jumbotron p:last-child {
+    margin-bottom: 40px; }
+  .jumbotron button {
+    margin-top: 50px; }
 
 #plans {
   background: #e9f6fc; }
@@ -923,6 +932,8 @@ footer {
   margin-left: 5px; }
 .dashboard #menuLogin .dropdown-menu {
   margin-top: 9px; }
+.dashboard #advanced-search {
+  padding-top: 150px; }
 
 /* Nav */
 .nav-tabs {
