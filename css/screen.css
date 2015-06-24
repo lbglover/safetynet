@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -617,7 +618,7 @@ nav #menuRegister #btnLogin {
   .greyfooter .list {
     margin-top: 15px; }
     .greyfooter .list li {
-      font-size: 13px;
+      font-size: 14px;
       line-height: 30px;
       margin: 5px 0px; }
       .greyfooter .list li a {
@@ -626,7 +627,8 @@ nav #menuRegister #btnLogin {
   .greyfooter .intouch {
     margin-top: 20px;
     font-size: 14px;
-    line-height: 25px; }
+    line-height: 25px;
+    letter-spacing: 0.5px; }
     .greyfooter .intouch li a {
       color: #fff;
       text-decoration: none; }
@@ -647,8 +649,33 @@ nav #menuRegister #btnLogin {
     background: url("../images/mail-icon-blue.png") no-repeat;
     background-position: 0% 50%;
     padding-left: 25px; }
+  .greyfooter .darken {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    padding: 6px 10px; }
   .greyfooter #mc_embed_signup_scroll {
     margin-top: 30px; }
+  .greyfooter .mc-field-group {
+    float: left;
+    font-size: 13px; }
+    .greyfooter .mc-field-group input {
+      border: 0px;
+      background-color: transparent;
+      color: #76c9ec; }
+  .greyfooter .subscribe-btn {
+    float: right; }
+    .greyfooter .subscribe-btn input {
+      float: right;
+      border: 0px;
+      background-color: #404042;
+      border-radius: 3px;
+      padding: 2px 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      transition: all 0.3s ease 0s; }
+  .greyfooter input#mc-embedded-subscribe:hover {
+    background: #1dabe6; }
 
 .homepage footer {
   margin-top: 0px; }
@@ -1058,3 +1085,8 @@ footer {
   background: url("../images/users.png") no-repeat;
   background-position: 0% 50%;
   padding-left: 23px; }
+
+.glyphicon-menu-right:before {
+  content: "";
+  color: #1dabe6;
+  padding-left: 9px; }
