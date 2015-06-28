@@ -222,6 +222,9 @@ nav .dropdown-menu.loggedinmenu {
 nav #menuLogin .dropdown-menu {
   background: #fff;
   margin-top: 1px; }
+nav #menuLogin button:hover {
+  background-color: transparent;
+  color: inherit; }
 nav #loggedin {
   margin-top: -15px; }
   nav #loggedin a {
@@ -437,6 +440,9 @@ nav #menuRegister #btnLogin {
 
 .indentleft {
   margin-left: 30px; }
+
+.space-right {
+  margin-right: 25px; }
 
 .form-horizontal h4 {
   padding-left: 0px;
@@ -961,6 +967,14 @@ footer {
   margin-top: 9px; }
 .dashboard #advanced-search {
   padding-top: 150px; }
+.dashboard #report-search {
+  padding: 0px;
+  padding-bottom: 15px; }
+.dashboard .image-match {
+  margin-top: 15px; }
+  .dashboard .image-match li {
+    float: left;
+    margin-right: 15px; }
 
 /* Nav */
 .nav-tabs {
