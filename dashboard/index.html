@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Dashboard | SafetyNet KYC</title>
+    <title>Dashboard | SafetyNet</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
     </nav>
 
     <div class="container-fluid">
-      <div class="col-lg-2 col-md-2 index">
+      <div class="col-lg-2 col-md-2 col-sm-2 index">
         <ul class="db">
           <li class="live"><a id="dash" href="index.html">Dashboard</a></li>
           <li><a id="dbsearch" href="search.html">Search</a></li>
@@ -95,91 +95,91 @@
           <li><a href="help.html" id="help">Help</a></li>
         </ul>
       </div>
-      <div class="col-lg-7 col-md-7 middle">
+      <div class="col-lg-7 col-md-7 col-sm-7 middle">
         <div class="row margin5">
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-md-5 col-sm-5">
             <h2>Search</h2>
           </div>
-          <div class="col-lg-7 text-right">
+          <div class="col-lg-7 col-md-7 col-sm-7 text-right">
             <p>Add details for more accurate results. <a href="#" class="link search-toggle">Advanced Search</a></p>
           </div>
         </div>
         <div class="row margin5">
-          <div class="col-lg-1">
+          <div class="col-lg-1 col-md-1 col-sm-1">
             <label class="radio-inline">
               <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Person
             </label>
           </div>
-          <div class="col-lg-1">
+          <div class="col-lg-1 col-md-1 col-sm-1">
             <label class="radio-inline">
               <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Entity
             </label>
           </div>
         </div>
         <div class="row margin5">
-          <h5 class="col-lg-12 space">Search Type</h5>
+          <h5 class="col-lg-12 col-md-12 col-sm-12 space">Search Type</h5>
         </div>
         <div class="row margin5">
-          <div class="col-lg-1">
+          <div class="col-lg-1 col-md-1 col-sm-1">
             <label class="checkbox-inline">
               <input type="checkbox" id="inlineCheckbox1" value="option1"> AML
             </label>
           </div>
-          <div class="col-lg-1">
+          <div class="col-lg-1 col-md-1 col-sm-1">
             <label class="checkbox-inline">
               <input type="checkbox" id="inlineCheckbox2" value="option2"> PEP
             </label>
           </div>
-          <div class="col-lg-1 space-right">
+          <div class="col-lg-1 col-md-1 col-sm-1 space-right">
             <label class="checkbox-inline">
               <input type="checkbox" id="inlineCheckbox3" value="option3"> Business
             </label>
           </div>
-          <div class="col-lg-1">
+          <div class="col-lg-1 col-md-1 col-sm-1">
             <label class="checkbox-inline">
               <input type="checkbox" id="inlineCheckbox3" value="option3"> Credit
             </label>
           </div>
-          <div class="col-lg-1">
+          <div class="col-lg-1 col-md-1 col-sm-1">
             <label class="checkbox-inline">
               <input type="checkbox" id="inlineCheckbox3" value="option3"> Criminal
             </label>
           </div>
         </div>
         <div class="row margin5">
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <small class="text-right disclaimer">Remember that credit and criminal searches are limited in your plan.</small>
           </div>
         </div>
         <hr />
         <form class="form" id="search-form">
-          <div class="form-group col-lg-4">
+          <div class="form-group col-lg-4 col-md-4 col-sm-4">
             <label for="sel1">First Name</label>
             <label class="optional right" for="sel1"><small>Required</small></label>
             <input type="text" class="form-control" placeholder="">
           </div>
-          <div class="form-group col-lg-4">
+          <div class="form-group col-lg-4 col-md-4 col-sm-4">
             <label for="sel1">Middle/Other Names</label>
             <label class="optional right" for="sel1"><small>Optional</small></label>
             <input type="text" class="form-control" placeholder="">
           </div>
-          <div class="form-group col-lg-4">
+          <div class="form-group col-lg-4 col-md-4 col-sm-4">
             <label for="sel1">Last Name</label>
             <label class="optional right" for="sel1"><small>Required</small></label>
             <input type="text" class="form-control" placeholder="">
           </div>
-          <div class="form-group col-lg-offset-8 col-lg-4 text-right">
+          <div class="form-group col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 col-sm-12 text-right">
             <button class="blue width100">Search</button>
           </div>  
-          <div class="form-group col-lg-12">
+          <div class="form-group col-lg-12 col-md-12 col-sm-12">
               <h4 class="search-toggle">Advanced Search</h4>
             </div>        
           <div id="advanced-search" style="display: none">
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Name Alias</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Gender</label>
               <select class="form-control" placeholder="Gender Selection">
                 <option>Male</option>
@@ -189,24 +189,24 @@
               </select>
             </div>
             <div class="clear">
-              <div class="form-group col-lg-4">
+              <div class="form-group col-lg-4 col-md-4 col-sm-4">
                 <label for="sel1">Date of Birth (mm/dd/yyyy)</label>
                 <input type="text" class="form-control" placeholder="">
               </div>
-              <div class="form-group col-lg-4">
+              <div class="form-group col-lg-4 col-md-4 col-sm-4">
                 <label for="sel1">Country of Birth</label>
                 <input type="text" class="form-control" placeholder="">
               </div>
-              <div class="form-group col-lg-4">
+              <div class="form-group col-lg-4 col-md-4 col-sm-4">
                 <label for="sel1">City of Birth</label>
                 <input type="text" class="form-control" placeholder="">
               </div>
             </div>
-            <div class="form-group col-lg-4 clear">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4 clear">
               <label for="sel1">Nationality</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Identification Type</label>
               <select class="form-control" placeholder="Identification Type">
                 <option>1</option>
@@ -216,31 +216,31 @@
                 <option>5</option>
               </select>
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Identification Number</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Address</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Country</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">State/Province</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">City</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group col-lg-4 col-md-4 col-sm-4">
               <label for="sel1">Zip/Postal Code</label>
               <input type="text" class="form-control" placeholder="">
             </div>
-            <div class="form-group col-lg-offset-8 col-lg-4 text-right">
+            <div class="form-group col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4 col-sm-12 text-right">
               <button class="blue width100">Advanced Search</button>
             </div>
           </div>        
@@ -248,16 +248,16 @@
 
         <div class="col-lg-12 white" id="usersearch">
           <div class="row space">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
               <h2>Search Usage</h2>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 col-md-6 col-sm-6 text-right">
               <p class="right"><a href="#">View All</a></p>
             </div>
           </div>
 
           <div class="row lighterblue">
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5 col-sm-5">
               <select class="form-control" placeholder="by User">
                 <option>by User</option>
                 <option>2</option>
@@ -266,7 +266,7 @@
                 <option>5</option>
               </select>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4">
               <select class="form-control" placeholder="by User">
                 <option>01/01/15 - 02/01/15</option>
                 <option>2</option>
@@ -275,7 +275,7 @@
                 <option>5</option>
               </select>
             </div>
-            <div class="form-group col-lg-3 text-right">
+            <div class="form-group col-lg-3 col-md-3 col-sm-3 text-right">
               <button class="blue btnsmall">Update</button>
             </div>          
           </div>
@@ -312,60 +312,60 @@
           </table>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3">
+      <div class="col-lg-3 col-md-3 col-sm-3">
         <div class="row whitebox monthcount">
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="row">
-              <div class="col-lg-8 title">
+              <div class="col-lg-8 col-md-8 col-sm-8 title">
                 <h3>Your month count</h3>
               </div>
-              <div class="col-lg-4 viewall text-right">
+              <div class="col-lg-4 col-md-4 col-sm-4 viewall text-right">
                 <a href="#">View All</a>
               </div>
             </div>
             <div class="row lighterblue">
-              <div class="col-lg-9 text-left">
+              <div class="col-lg-9 col-md-9 col-sm-9 text-left">
                 <p>Left from your monthly usage</p>
               </div>
-              <div class="col-lg-3 text-right">
+              <div class="col-lg-3 col-md-3 col-sm-3 text-right">
                 <p class="totals strong">29</p>
               </div>
             </div>
             <div class="row lighterblue">
-              <div class="col-lg-9 text-left">
+              <div class="col-lg-9 col-md-9 col-sm-9 text-left">
                 <p>Executed</p>
               </div>
-              <div class="col-lg-3 text-right">
+              <div class="col-lg-3 col-md-3 col-sm-3 text-right">
                 <p class="totals">29</p>
               </div>
             </div>
             <div class="row lighterblue">
-              <div class="col-lg-8 text-left">
+              <div class="col-lg-8 col-md-8 col-sm-8 text-left">
                 <p>Total</p>
               </div>
-              <div class="col-lg-4 text-right">
+              <div class="col-lg-4 col-md-4 col-sm-4 text-right">
                 <p class="totals">100</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-12 text-center">
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <button class="blue"><a href="users.html">Add to Your Plan</a></button>
               </div>
             </div>
           </div>
         </div>
         <div class="row whitebox latestreports">
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="row">
-              <div class="col-lg-8 title">
+              <div class="col-lg-8 col-md-8 col-sm-8 title">
                 <h3>Latest Reports</h3>
               </div>
-              <div class="col-lg-4 viewall text-right">
+              <div class="col-lg-4 col-md-4 col-sm-4 viewall text-right">
                 <a href="#">View All</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-12" id="report-search">
+              <div class="col-lg-12 col-md-12 col-sm-12" id="report-search">
                 <select class="form-control" placeholder="by User">
                   <option>by User</option>
                   <option>2</option>
@@ -402,10 +402,10 @@
         <div class="row whitebox apikeys">
           <div class="col-lg-12">
             <div class="row">
-              <div class="col-lg-8 title">
+              <div class="col-lg-8 col-md-8 col-sm-8 title">
                 <h3>API Keys</h3>
               </div>
-              <div class="col-lg-4 viewall text-right">
+              <div class="col-lg-4 col-md-4 col-sm-4 viewall text-right">
                 <a href="#">View All</a>
               </div>
               <table class="table table-hover">
@@ -432,7 +432,7 @@
               </table>
             </div>
             <div class="row">
-              <div class="col-lg-12 text-center">
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <button class="blue"><a href="settings.html">Create New Key</a></button>
               </div>
             </div>
@@ -444,10 +444,10 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 copyright">
+          <div class="col-lg-7 col-md-7 col-sm-7 copyright">
             <p>Copyright 2015 SafetyNet - All rights reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-md-5 col-sm-5">
             <ul class="secondary">
               <li><a href="../index.html">Home</a></li>
               <li><a href="../about">About</a></li>
