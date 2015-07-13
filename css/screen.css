@@ -223,7 +223,6 @@ nav #menuLogin .dropdown-menu {
   background: #fff;
   margin-top: 1px; }
 nav #menuLogin button:hover {
-  background-color: transparent;
   color: inherit; }
 nav #loggedin {
   margin-top: -15px; }
@@ -293,6 +292,8 @@ nav #menuLogin button.whitebtn:hover {
   color: #404042; }
 nav #menuRegister #btnLogin {
   margin-top: 20px; }
+nav #menuRegister #navLogin button {
+  border: 1px solid #1dabe6; }
 
 .topheader {
   margin-top: 0px; }
@@ -667,7 +668,8 @@ nav #menuRegister #btnLogin {
     .greyfooter .mc-field-group input {
       border: 0px;
       background-color: transparent;
-      color: #76c9ec; }
+      color: #76c9ec;
+      width: 145%; }
   .greyfooter .subscribe-btn {
     float: right; }
     .greyfooter .subscribe-btn input {
