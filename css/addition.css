@@ -30,7 +30,9 @@
   border: 0px;
 }
 
-
+#myAffix {
+  display: none;
+}
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
@@ -51,23 +53,17 @@
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-      .mobile-option {
-        display: none;
-      }  
+
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-      .mobile-option {
-        display: none;
-      }  
+
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-      .mobile-option {
-        display: none;
-      }  
+
     }
 
 
@@ -119,6 +115,7 @@
 
       .jumbotron button {
         margin-top: 10px;
+        width: 50%;
       }
 
       .homepage h1 {

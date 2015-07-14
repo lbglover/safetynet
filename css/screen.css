@@ -193,13 +193,12 @@ label {
 .navbar-fixed-top {
   border-bottom: 1px solid #eee;
   background: #fdfdfd;
-  min-height: 100px; }
+  max-height: 100%; }
 
 #navLogin {
   margin-top: 0px;
   padding-top: 0px;
-  padding-right: 0px;
-  background: #ffffff; }
+  padding-right: 0px; }
 
 .nav > li > a:focus, .nav > li > a:hover {
   background: transparent; }
@@ -560,7 +559,7 @@ nav #menuRegister #navLogin button {
   background: url("../images/background.jpg");
   background-size: cover;
   height: 550px;
-  margin-top: 11px;
+  margin-top: 5px;
   color: #ffffff; }
   .jumbotron h1 {
     font-size: 36px;
