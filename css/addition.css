@@ -29,35 +29,151 @@
 .company:last-child span:after {
   border: 0px;
 }
-/*
-.dropdown-menu {
-  position: relative;
-}*/
 
-/*.dropdown-menu:after {
-  bottom: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(136, 183, 213, 0);
-  border-bottom-color: red;
-  border-width: 15px;
-  margin-left: -15px;
-}*/
 
-/* Pricing Table Opacity Options
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
 
-.pricingtable td:nth-child(2), th:nth-child(2)
-  opacity: .3
+    /*==========  Mobile First Method  ==========*/
 
-.pricingtable td:nth-child(3), th:nth-child(3)
-  opacity: .3
-  
-.pricingtable td:nth-child(4), th:nth-child(4)
-  opacity: .3 
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
 
-*/
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+      #mobilelogin {
+        display: none;
+      }  
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      #mobilelogin {
+        display: none;
+      }  
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+      #mobilelogin {
+        display: none;
+      }  
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+      #mobilelogin {
+        display: none;
+      }  
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .navbar-brand img {
+        width: 100px !important;
+      }
+
+      .navbar-fixed-top {
+        min-height: 80px;
+      }
+
+      .topheader {
+        display: none;
+      }
+
+      .jumbotron {
+        background-position: 35% 50%;
+        height: 470px;
+        margin-top: -15px;
+      }
+
+      .jumbotron h1 {
+        font-size: 27px;
+      }
+
+      .jumbotron p {
+        display: none;
+      }
+
+      .jumbotron button {
+        margin-top: 10px;
+      }
+
+      .homepage h1 {
+        font-size: 26px;
+      }
+
+      .subtitle {
+        margin-bottom: 20px;
+        line-height: 25px;
+      }
+
+      #features {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      section.contact {
+        padding-bottom: 20px;
+      }
+
+      .contact form {
+        margin-bottom: 60px;
+      }
+
+      .contact form button {
+        width: 100%;
+      }
+
+      .homepage .pricingtable {
+        border: 0px;
+      }
+
+      .greyfooter .col-sm-4 {
+        margin-bottom: 50px;
+      }
+
+      .video {
+        margin-left: 0px;
+        margin-top: 25px;
+      }
+
+      footer .secondary {
+        display: none;
+      }
+
+      .desktop-option {
+        display: none;
+      }
+
+      .mobile-option {
+        display: block;
+      }  
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+       
+    }
