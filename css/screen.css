@@ -172,8 +172,9 @@ button:focus {
   color: #2b2b2b; }
   .white a {
     color: #2b2b2b; }
-  .white:hover {
-    background: #76c9ec; }
+
+button.white:hover {
+  background: #76c9ec; }
 
 .width100 {
   width: 100%; }
@@ -729,6 +730,8 @@ footer {
       margin-top: 8px; }
 
 /* Dashboard */
+.dashboard nav {
+  padding: 0px 30px; }
 .dashboard h2 {
   font-size: 28px;
   font-weight: 500;
@@ -741,6 +744,8 @@ footer {
 .dashboard h5 {
   color: #404042;
   margin-bottom: 10px; }
+.dashboard .middle a, .dashboard .right a {
+  color: #1dabe6; }
 .dashboard .fbi {
   color: #c6352c;
   padding: 10px;
@@ -953,7 +958,9 @@ footer {
   padding: 8px 20px; }
 .dashboard .monthcount .totals {
   font-size: 30px;
-  color: #1dabe6; }
+  color: #1992c4;
+  font-family: "Lato";
+  font-weight: 300; }
 .dashboard .monthcount .strong {
   font-weight: 800; }
 .dashboard .monthcount .lighterblue {
@@ -1156,10 +1163,3 @@ footer {
 return-to-top:hover i {
   color: #fff;
   top: 5px; }
-
-/*========== Bootstrap Variables  ========== */
-/* Custom, iPhone Retina */
-/* Extra Small Devices, Phones */
-/* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-/* Large Devices, Wide Screens */

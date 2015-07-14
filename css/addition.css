@@ -44,28 +44,28 @@
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
-      #mobilelogin {
+      .mobile-option {
         display: none;
       }  
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-      #mobilelogin {
+      .mobile-option {
         display: none;
       }  
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-      #mobilelogin {
+      .mobile-option {
         display: none;
       }  
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-      #mobilelogin {
+      .mobile-option {
         display: none;
       }  
     }
